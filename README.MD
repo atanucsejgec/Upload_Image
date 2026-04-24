@@ -490,23 +490,23 @@ app/src/main/java/com/app/notisync_sender/
 gantt
     title NotiSync Sender Development Roadmap
     dateFormat  YYYY-MM-DD
-    section ✅ Completed
-    Jetpack Compose UI with Scaffold         :done, 2024-01-01, 2024-02-01
-    Permission Request System                :done, 2024-01-15, 2024-02-15
-    Firebase Auth & Firestore Integration    :done, 2024-02-01, 2024-03-01
-    Room DB Offline-First Architecture       :done, 2024-02-15, 2024-03-15
-    Keyboard Capture Service                 :done, 2024-03-01, 2024-04-01
-    Call Log Sync Workers                    :done, 2024-03-01, 2024-04-01
-    Batch Processing & Deduplication         :done, 2024-03-15, 2024-04-15
-    Feature Flag System                      :done, 2024-04-01, 2024-05-01
-    section 🔄 In Progress
-    Optimized WorkManager Sync Triggers      :active, 2024-05-01, 2024-06-01
-    Cleaner Screen Implementation            :active, 2024-05-15, 2024-06-15
-    section 📋 Planned
-    Battery Optimization Profiles            :2024-06-01, 2024-07-01
-    End-to-End Encryption for Local Logs     :2024-06-15, 2024-07-15
-    SMS Synchronization Support              :2024-07-01, 2024-08-01
-    NotiSync Receiver Companion App          :2024-07-15, 2024-09-01
+    section Completed
+    Jetpack Compose UI with Scaffold         :done, t1, 2024-01-01, 2024-02-01
+    Permission Request System                :done, t2, 2024-01-15, 2024-02-15
+    Firebase Auth and Firestore Integration  :done, t3, 2024-02-01, 2024-03-01
+    Room DB Offline-First Architecture       :done, t4, 2024-02-15, 2024-03-15
+    Keyboard Capture Service                 :done, t5, 2024-03-01, 2024-04-01
+    Call Log Sync Workers                    :done, t6, 2024-03-01, 2024-04-01
+    Batch Processing and Deduplication       :done, t7, 2024-03-15, 2024-04-15
+    Feature Flag System                      :done, t8, 2024-04-01, 2024-05-01
+    section In Progress
+    Optimized WorkManager Sync Triggers      :active, t9, 2024-05-01, 2024-06-01
+    Cleaner Screen Implementation            :active, t10, 2024-05-15, 2024-06-15
+    section Planned
+    Battery Optimization Profiles            :t11, 2024-06-01, 2024-07-01
+    End-to-End Encryption for Local Logs     :t12, 2024-06-15, 2024-07-15
+    SMS Synchronization Support              :t13, 2024-07-01, 2024-08-01
+    NotiSync Receiver Companion App          :t14, 2024-07-15, 2024-09-01
 ```
 
 | Status | Feature |
