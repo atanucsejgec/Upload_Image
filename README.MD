@@ -75,7 +75,7 @@ The app is engineered around **Clean Architecture** and **MVVM** principles, ens
 <table>
   <tr>
     <td align="center"><b>🏠 Dashboard</b></td>
-    <td align="center"><b>🔐 Login</b></td>
+    <td align="center"><b>🔐 All Permission</b></td>
     <td align="center"><b>🔔 Permission Setup</b></td>
     <td align="center"><b>⚙️ Settings</b></td>
   </tr>
@@ -84,7 +84,7 @@ The app is engineered around **Clean Architecture** and **MVVM** principles, ens
       <img width="220" alt="Dashboard Screen" src="https://github.com/user-attachments/assets/1e2c40dc-9ff5-4d04-b232-570a476dc067" />
     </td>
     <td>
-      <img width="220" alt="Login Screen" src="https://github.com/user-attachments/assets/4babd5c2-abec-475a-9c08-bf5f6907f752" />
+      <img width="220" alt="Permission Screen" src="https://github.com/user-attachments/assets/4babd5c2-abec-475a-9c08-bf5f6907f752" />
     </td>
     <td>
       <img width="220" alt="Permission Setup" src="https://github.com/user-attachments/assets/1e19e6b9-c50b-4f33-936a-f9b62cef9278" />
