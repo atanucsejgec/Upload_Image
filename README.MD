@@ -1,397 +1,581 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:7F52FF&height=200&section=header&text=YT%20Downloader&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Powerful%20YouTube%20Downloader%20for%20Android&descAlignY=58&descColor=ffffff&animation=fadeIn" width="100%"/>
-</p>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Download+YouTube+Videos+in+4K+%F0%9F%8E%AC;Audio-only+MP3+%2F+M4A+Support+%F0%9F%8E%B5;Smart+Queue+Management+%E2%9A%A1;Background+Downloads+with+Notifications+%F0%9F%94%94;Built+with+Jetpack+Compose+%F0%9F%9A%80)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=NotiSync%20Sender&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Real-time%20Data%20Broadcaster%20for%20Android&descAlignY=62&descColor=fff" />
 
-</div>
+<br/>
 
-<div align="center">
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6CF7FF&center=true&vCenter=true&width=600&lines=📡+Broadcast+Notifications+to+Firebase;📍+Real-time+GPS+Location+Syncing;📞+Automated+Call+Log+Broadcasting;🔐+Secure+%26+Battery-Efficient+Design;🚀+Built+with+Jetpack+Compose+%26+Hilt)](https://git.io/typing-svg)
 
-![YT Downloader Banner](https://img.shields.io/badge/YT%20Downloader-v1.0-00D4FF?style=for-the-badge&logo=youtube&logoColor=white)
-![Android](https://img.shields.io/badge/Android-24%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Latest-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-00C87A?style=for-the-badge)
+<br/>
 
-**A powerful, beautiful YouTube downloader for Android built with Jetpack Compose**
+[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/atanucsejgec/NotiSync_Sender?style=for-the-badge&color=yellow)](https://github.com/atanucsejgec/NotiSync_Sender/stargazers)
+[![Issues](https://img.shields.io/github/issues/atanucsejgec/NotiSync_Sender?style=for-the-badge&color=red)](https://github.com/atanucsejgec/NotiSync_Sender/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/atanucsejgec/NotiSync_Sender?style=for-the-badge&color=green)](https://github.com/atanucsejgec/NotiSync_Sender/commits)
 
-[⬇️ Download APK](https://drive.google.com/file/d/13HQLQyJaN9MdxW8BPM3dLOZNOvq-98J3/view?usp=drive_link) • [🐛 Report Bug](https://github.com/issues) • [💡 Request Feature](https://github.com/issues)
+<br/>
+
+> 📡 **NotiSync Sender** is the powerhouse Android application designed to capture and broadcast system events — including notifications, call logs, keyboard inputs, and GPS location — to a secure Firebase cloud for real-time monitoring.
+
+<br/>
+
+[🚀 Getting Started](#️-installation) • [🔥 Firebase Setup](#-firebase-setup-required) • [📁 Structure](#-project-structure) • [🗺️ Roadmap](#️-roadmap) • [🤝 Contribute](#-contributing)
 
 </div>
 
 ---
 
-## 📱 Screenshots
+## 📖 Table of Contents
+
+- [📌 About](#-about)
+- [📸 Screenshots](#-screenshots)
+- [✨ Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🏗️ Architecture](#️-architecture)
+- [⚙️ Installation](#️-installation)
+- [🔥 Firebase Setup](#-firebase-setup-required)
+- [📁 Project Structure](#-project-structure)
+- [🗺️ Roadmap](#️-roadmap)
+- [🤝 Contributing](#-contributing)
+- [👥 Contributors](#-contributors)
+- [📄 License](#-license)
+- [📬 Contact](#-contact)
+
+---
+
+## 📌 About
+
+**NotiSync Sender** is a robust Android utility built with **Jetpack Compose**, **Hilt**, and **Firebase**. It serves as the data source in the NotiSync ecosystem, monitoring the host device and synchronizing sensitive event data to the cloud in real-time.
+
+The app is engineered around **Clean Architecture** and **MVVM** principles, ensuring modularity, testability, and long-term maintainability. It includes advanced capabilities like **keyboard input capture**, **batch processing with deduplication**, **offline-first sync** via Room DB, and **WorkManager**-powered background resilience.
+
+### 🎯 Use Cases
+
+| Scenario | How NotiSync Sender Helps |
+|---|---|
+| 📱 Remote Monitoring | Broadcast device status to a centralized receiver |
+| 🛡️ Anti-Theft / Recovery | Constant GPS location broadcasting to Firebase |
+| 💼 Professional Logs | Automated cloud backup of work-related call logs |
+| 🔔 Notification Mirroring | Forward critical alerts to other linked devices |
+| ⌨️ Input Analysis | Capture and batch-process keyboard sentences |
+| 📶 Offline-First Design | Local Room DB ensures zero data loss during connectivity gaps |
+
+---
+
+## 📸 Screenshots
+
+> 💡 Visualizing the modern Material 3 interface.
 
 <div align="center">
-  <table style="width:100%">
-    <tr>
-      <td width="33%" align="center">
-        <img src="https://github.com/user-attachments/assets/a68f5cf9-ecb1-4f4d-91eb-efb463da539e" width="250" alt="Search Screen"/>
-      </td>
-      <td width="33%" align="center">
-        <img src="https://github.com/user-attachments/assets/4ce17a16-e0c8-4f55-812e-1e2f02e70490" width="250" alt="Download Queue"/>
-      </td>
-      <td width="33%" align="center">
-        <img src="https://github.com/user-attachments/assets/8c2bad24-04aa-4878-93a1-61c6e432b2e8" width="250" alt="Playlist Dialog"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>Smart Search</b></td>
-      <td align="center"><b>Active Queue</b></td>
-      <td align="center"><b>Playlist Selection</b></td>
-    </tr>
-  </table>
+
+| Dashboard Screen | Permission Setup | Active Syncing | Settings |
+|---|---|---|---|
+| ![Dashboard](https://via.placeholder.com/200x400/1a1a2e/6CF7FF?text=Dashboard) | ![Permissions](https://via.placeholder.com/200x400/16213e/6CF7FF?text=Permissions) | ![Syncing](https://via.placeholder.com/200x400/0f3460/6CF7FF?text=Syncing) | ![Settings](https://via.placeholder.com/200x400/533483/6CF7FF?text=Settings) |
+
 </div>
 
 ---
 
 ## ✨ Features
 
-### 🎬 Core Download Features
-
-* **Download YouTube videos** in multiple qualities — 4K, 2K, 1080p, 720p, 480p, 360p
-* **Audio-only downloads** — MP3, M4A, Best Audio
-* **Smart quality selection** — AV1 (smallest size), H.264 (most compatible), Max Bitrate
-* **Accurate quality enforcement** — what you select is what you get, no surprise quality switches
-* **Playlist support** — download entire playlists or select specific videos
-
-### 🔍 Built-in YouTube Search
-
-* Search YouTube directly inside the app — no browser needed
-* Paste a URL or type any search query
-* Browse results with thumbnails, uploader name, and duration
-* One-tap add any result to the download queue
-
-### 📋 Download Queue
-
-* Add multiple videos to a queue — downloads happen one after another automatically
-* Live download progress per queue item with circular progress indicator
-* Download speed display (MB/s or KB/s) per item
-* Open and Share buttons appear instantly when each video finishes
-* Clear completed downloads with one tap
-
-### ⚡ Smart Queue Management
-
-* While a video is downloading, freely search and add more videos to the queue
-* The search panel and download section work completely independently
-* Queue auto-starts next download immediately when current one finishes
-* Cancel any active download without losing queued items
-
-### 🔔 Background Download
-
-* Downloads continue when the app is minimized
-* Persistent foreground service notification shows:
-
-  * Current video title
-  * Download progress percentage
-  * Download speed (MB/s)
-  * ETA remaining
-  * Queue count
-* Cancel download directly from the notification
-
-### ▶️ Playlist Selection
-
-* Smart playlist detection — shows video count and title
-* Download all or single video toggle
-* **Select specific videos** from a playlist via a dialog:
-
-  * All videos pre-selected by default
-  * Select All / Deselect All buttons
-  * Tap individual videos to toggle selection
-
-### 📊 Download Info & Stats
-
-* Video thumbnail preview with duration badge
-* Channel/uploader name display
-* Estimated file size shown per quality before downloading
-* Actual downloaded file size shown after completion
-* Open and Share the downloaded file directly from the app
-
-### 🔄 Resume & Retry
-
-* Failed downloads can be resumed from where they stopped
-* Automatic retry options on failure
-* Partial download cleanup on cancel
-
-### 📋 Auto URL Detection
-
-* Share a YouTube video directly from the YouTube app
-* Open YouTube links directly in YT Downloader from any browser
-* **Auto-paste clipboard detection** — when you reopen the app with a YouTube URL copied, a dialog prompts to add it automatically
-
-### ⭐ Quality Memory
-
-* Remembers your last used quality selection across app restarts
-
-### 🔐 YouTube Login (Bot Detection Fix)
-
-* Sign in to YouTube via built-in WebView
-* Fixes "Sign in to confirm you're not a bot" errors on some networks
-* Cookies stored securely on device
-* Sign out anytime from Settings
-
-### ⚙️ Settings
-
-* Choose download save location:
-
-  * Movies/YTDownloader
-  * Downloads/YTDownloader
-  * Music/YTDownloader
-  * DCIM/YTDownloader
-* Cache & temp file manager with size display
-* One-tap deep clean of all cache and temp files
-* YouTube login / logout management
-
-### 🎨 Beautiful UI
-
-* Dark navy gradient theme with cyan accent colors
-* Smooth animations throughout — slide in, fade in, expand
-* Animated search results disappear when adding to queue
-* Glowing card borders and gradient progress bars
-* Clean, modern Material 3 design
+<table>
+  <tr>
+    <td>🔔 <b>Notification Capture</b></td>
+    <td>Monitors status bar notifications via <code>NotiListenerService</code> and broadcasts them to Firebase Firestore in real-time with batch processing</td>
+  </tr>
+  <tr>
+    <td>📍 <b>Real-time GPS Tracking</b></td>
+    <td>Utilizes Fused Location Provider for accurate, battery-efficient location syncing. Uses <code>OfflineSyncWorker</code> for resilient delivery</td>
+  </tr>
+  <tr>
+    <td>📞 <b>Call Log Broadcaster</b></td>
+    <td>Detects and uploads incoming/outgoing call history automatically via <code>CallLogSyncWorker</code>, <code>CallLogRetryWorker</code>, and manual sync support</td>
+  </tr>
+  <tr>
+    <td>⌨️ <b>Keyboard Input Capture</b></td>
+    <td>Uses <code>KeyboardAccessibilityService</code> and <code>SentenceDetector</code> to capture, batch, and sync typed sentences via <code>KeyboardBatchProcessor</code></td>
+  </tr>
+  <tr>
+    <td>📦 <b>Batch Processing & Deduplication</b></td>
+    <td>Domain-level <code>BatchProcessor</code> and <code>DuplicateFilter</code> ensure clean, optimized payloads are pushed to Firestore</td>
+  </tr>
+  <tr>
+    <td>📶 <b>Offline-First Architecture</b></td>
+    <td>Room DB with entities like <code>PendingBatchEntity</code>, <code>PendingCallLogBatchEntity</code>, and <code>PendingLocationEntity</code> ensures no data is lost offline</td>
+  </tr>
+  <tr>
+    <td>🔐 <b>Dynamic Permissions</b></td>
+    <td>Graceful handling of Location, Call Log, Notification, and Accessibility permissions (Android 13+)</td>
+  </tr>
+  <tr>
+    <td>🎨 <b>Material 3 & Compose</b></td>
+    <td>State-of-the-art UI with edge-to-edge support, dynamic theming across Dashboard, Login, Settings, and Cleaner screens</td>
+  </tr>
+  <tr>
+    <td>💉 <b>Hilt Dependency Injection</b></td>
+    <td>Clean, testable codebase using Dagger Hilt with <code>AppModule</code> and <code>DatabaseModule</code> for service management</td>
+  </tr>
+  <tr>
+    <td>🔄 <b>WorkManager Integration</b></td>
+    <td><code>SyncForegroundService</code> and <code>OfflineSyncWorker</code> ensure background synchronization survives app kills and device reboots via <code>BootReceiver</code></td>
+  </tr>
+  <tr>
+    <td>🚩 <b>Feature Flag System</b></td>
+    <td><code>FeatureFlagRepository</code> and <code>FeatureFlagFirestoreDataSource</code> allow remote toggling of app capabilities without updates</td>
+  </tr>
+</table>
 
 ---
 
-## 📲 Download & Install
-
-### Direct APK Download
-
-👉 **[Download Latest APK](https://drive.google.com/file/d/13HQLQyJaN9MdxW8BPM3dLOZNOvq-98J3/view?usp=drive_link)**
-
-### Installation Steps
-
-1. Download the APK from the link above
-2. On your Android device, go to **Settings → Security**
-3. Enable **"Install from Unknown Sources"** (or allow your browser/file manager when prompted)
-4. Open the downloaded APK file
-5. Tap **Install**
-6. Open **YT Downloader** and enjoy!
-
-> ⚠️ **Note:** Android may warn about installing apps from unknown sources. This is normal for APKs not from the Play Store. The app is safe and open source.
-
----
-
-## 🛠️ Build from Source
-
-### Prerequisites
-
-* Android Studio Ladybug or newer
-* JDK 11+
-* Android SDK with API 36
-* Git
-
-### Steps
-
-```bash
-# Clone the repository
-git clone https://github.com/atanucsejgec/Youtube_Video_Downloader_Best_Quality.git
-
-# Enter the directory
-cd Youtube_Video_Downloader_Best_Quality
-
-# Build debug APK
-./gradlew assembleDebug
-```
-
-### Build Requirements
-
-* **minSdk**: 24 (Android 7.0)
-* **targetSdk**: 36 (Android 15/16 Preview)
-* **ABIs**: `arm64-v8a`, `armeabi-v7a` (Optimized for physical devices)
-
----
-
-## 🏗️ Tech Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=kotlin,androidstudio,gradle,git,github&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=kotlin,firebase,androidstudio,gradle,git,github&theme=dark)](https://skillicons.dev)
 
 </div>
 
-| Technology                 | Purpose                   |
-| -------------------------- | ------------------------- |
-| Kotlin                     | Primary language          |
-| Jetpack Compose            | UI framework              |
-| Material 3                 | Design system             |
-| yt-dlp (youtubedl-android) | YouTube download engine   |
-| FFmpeg                     | Video/audio merging       |
-| Coil                       | Image loading             |
-| Kotlin Coroutines          | Async operations          |
-| StateFlow                  | Reactive state management |
-| ViewModel                  | UI state holder           |
-| Foreground Service         | Background downloads      |
-| MediaStore API             | Gallery saving            |
-| WebView                    | YouTube login             |
+<br/>
+
+| Category | Technology |
+|---|---|
+| 🌐 Language | Kotlin 1.9+ |
+| 🎨 UI Framework | Jetpack Compose + Material 3 |
+| 🏛️ Architecture | MVVM + Clean Architecture |
+| 💉 Dependency Injection | Hilt (v2.56.2) |
+| ☁️ Backend | Firebase Auth & Firestore |
+| 🗄️ Local Database | Room DB (with DAOs, Entities, TypeConverters) |
+| 🔄 Async Processing | Coroutines & Flow |
+| 🧭 Navigation | Navigation Compose (v2.9.0) |
+| 🔁 Background Work | WorkManager + ForegroundService + BootReceiver |
+| ⌨️ Input Monitoring | AccessibilityService (KeyboardAccessibilityService) |
+| 📦 Batch Sync | Custom BatchProcessor + DuplicateFilter |
+| 🚩 Feature Flags | Firestore-backed FeatureFlagRepository |
 
 ---
 
-## 🗺️ App Architecture
+## 🏗️ Architecture
+
+NotiSync Sender follows **Clean Architecture** principles layered with **MVVM** to ensure a scalable, testable, and maintainable codebase.
+
+### 📐 High-Level Architecture Diagram
 
 ```mermaid
-flowchart TD
-    A([📱 User]) -->|Paste URL / Search| B[MainActivity]
-    B --> C{Input Type?}
-    C -->|YouTube URL| D[MainViewModel]
-    C -->|Search Query| E[SearchRepository]
-    E -->|yt-dlp search| F[Search Results UI]
-    F -->|Add to Queue| D
-    D -->|Enqueue| G[DownloadQueue]
-    G -->|Start Download| H[DownloadService\nForeground Service]
-    H -->|yt-dlp + FFmpeg| I[(MediaStore\nLocal File)]
-    H -->|Progress Updates| J[Notification]
-    H -->|StateFlow| K[Queue UI]
-    K -->|Open / Share| I
+graph TB
+    subgraph UI["🎨 UI Layer (Jetpack Compose)"]
+        MA[MainActivity.kt]
+        DS[DashboardScreen.kt]
+        LS[LoginScreen.kt]
+        SS[SettingsScreen.kt]
+        CS[CleanerScreen.kt]
+        NG[SenderNavGraph.kt]
+    end
 
-    style A fill:#00D4FF,color:#000
-    style H fill:#7F52FF,color:#fff
-    style I fill:#3DDC84,color:#000
-    style J fill:#FF6B35,color:#fff
+    subgraph VM["🧠 ViewModel Layer"]
+        AVM[AuthViewModel]
+        DVM[DashboardViewModel]
+    end
+
+    subgraph Domain["🔷 Domain Layer"]
+        subgraph Models["📦 Models"]
+            CR[CallRecord]
+            CN[CapturedNotification]
+            DL[DeviceLocation]
+            DI[DeviceInfo]
+            NB[NotificationBatch]
+            CLB[CallLogBatch]
+            SB[SentenceBatch]
+            CS2[CapturedSentence]
+        end
+        BP[BatchProcessor]
+        DF[DuplicateFilter]
+    end
+
+    subgraph Data["🗄️ Data Layer"]
+        subgraph Local["💾 Room DB"]
+            SDB[SenderDatabase]
+            CLD[CallLogDao]
+            LD[LocationDao]
+            PBD[PendingBatchDao]
+            SD[SentenceDao]
+        end
+        subgraph Remote["☁️ Firestore Sources"]
+            FDS[FirestoreDataSource]
+            CLFDS[CallLogFirestoreDataSource]
+            LOFDS[LocationFirestoreDataSource]
+            KFDS[KeyboardFirestoreDataSource]
+            FFFDS[FeatureFlagFirestoreDataSource]
+        end
+        subgraph Repos["📂 Repositories"]
+            AR[AuthRepository]
+            CLR[CallLogRepository]
+            LR[LocationRepository]
+            NR[NotificationRepository]
+            KR[KeyboardRepository]
+            FFR[FeatureFlagRepository]
+        end
+    end
+
+    subgraph Services["⚙️ Service Layer"]
+        subgraph CallLog["📞 Call Log"]
+            CLSW[CallLogSyncWorker]
+            CLRW[CallLogRetryWorker]
+            CLMW[CallLogManualSyncWorker]
+            CLRead[CallLogReader]
+            CLPH[CallLogPermissionHelper]
+        end
+        subgraph Keyboard["⌨️ Keyboard"]
+            KAS[KeyboardAccessibilityService]
+            KBP[KeyboardBatchProcessor]
+            SDet[SentenceDetector]
+        end
+        subgraph Location["📍 Location"]
+            BR[BootReceiver]
+            NLS[NotiListenerService]
+            OSW[OfflineSyncWorker]
+            SFS[SyncForegroundService]
+        end
+    end
+
+    subgraph DI["💉 DI Layer (Hilt)"]
+        AM[AppModule]
+        DBM[DatabaseModule]
+    end
+
+    subgraph Firebase["🔥 Firebase"]
+        FA[Firebase Auth]
+        FS[Cloud Firestore]
+    end
+
+    MA --> VM
+    NG --> DS & LS & SS & CS
+    DS --> DVM
+    LS --> AVM
+    VM --> Repos
+    Repos --> Local & Remote
+    Remote --> Firebase
+    Services --> Repos
+    BR --> SFS
+    SFS --> OSW
+    DI --> Repos & Local & Remote
+```
+
+### 🔄 Data Flow Diagram
+
+```mermaid
+sequenceDiagram
+    participant Device as 📱 Device Events
+    participant Service as ⚙️ Background Service
+    participant RoomDB as 🗄️ Room DB
+    participant Worker as 🔄 WorkManager
+    participant Firestore as 🔥 Firestore
+
+    Device->>Service: Notification / Call / Location / Keyboard
+    Service->>Service: BatchProcessor + DuplicateFilter
+    Service->>RoomDB: Store PendingBatch (Offline-First)
+    Worker->>RoomDB: Poll pending batches
+    Worker->>Firestore: Upload batch payload
+    Firestore-->>Worker: ✅ Success / ❌ Retry
+    Worker->>RoomDB: Mark as synced / Queue retry
+```
+
+### 🧱 Layer Responsibilities
+
+| Layer | Component | Responsibility |
+|---|---|---|
+| **UI** | `DashboardScreen`, `LoginScreen`, `SettingsScreen`, `CleanerScreen` | Compose-based screens observing `StateFlow` from ViewModels |
+| **ViewModel** | `AuthViewModel`, `DashboardViewModel` | Business logic, state management, bridging UI and repositories |
+| **Domain** | `BatchProcessor`, `DuplicateFilter`, Models | Pure Kotlin domain logic, no Android dependencies |
+| **Data/Remote** | `FirestoreDataSource`, `CallLogFirestoreDataSource`, etc. | Firebase Firestore CRUD operations |
+| **Data/Local** | `SenderDatabase`, DAOs, Entities | Room DB offline persistence |
+| **Data/Repository** | `AuthRepository`, `CallLogRepository`, etc. | Single source of truth, coordinating remote + local |
+| **Service** | `CallLogSyncWorker`, `KeyboardAccessibilityService`, `SyncForegroundService` | Background event capture and sync |
+| **DI** | `AppModule`, `DatabaseModule` | Hilt modules providing singletons |
+
+---
+
+## ⚙️ Installation
+
+### Prerequisites
+
+- ✅ Android Studio **Ladybug** or newer
+- ✅ JDK **17+**
+- ✅ Android device running **API 26+** (Oreo)
+- ✅ A configured **Firebase Project**
+
+### Steps
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/atanucsejgec/NotiSync_Sender.git
+cd NotiSync_Sender
+```
+
+**2. Add Firebase Config**
+
+- Download `google-services.json` from your [Firebase Console](https://console.firebase.google.com/).
+- Place it in the `app/` directory.
+
+**3. Build and Deploy**
+
+- Open in **Android Studio**.
+- Click **Sync Project with Gradle Files**.
+- Press `Shift + F10` to run on your device or emulator.
+
+**4. Enable Accessibility Service (for Keyboard Capture)**
+
+- Go to **Settings → Accessibility → Installed Services → NotiSync Sender** → Enable.
+
+**5. Enable Notification Listener (for Notification Capture)**
+
+- Go to **Settings → Notifications → Notification Access → NotiSync Sender** → Enable.
+
+---
+
+## 🔥 Firebase Setup (Required)
+
+### Step 1 — Create Project
+
+- Go to [Firebase Console](https://console.firebase.google.com/) and create a new project named `NotiSync`.
+
+### Step 2 — Register Android App
+
+- Use package name: `com.app.notisync_sender`
+- Download `google-services.json` and place in `app/`
+
+### Step 3 — Enable Firestore & Auth
+
+- **Authentication:** Enable **Email/Password** sign-in method.
+- **Firestore:** Create a database in **Test Mode** (switch to production rules before deployment).
+
+### Step 4 — Recommended Firestore Security Rules
+
+```javascript
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
+```
+
+### Step 5 — Firestore Collections Structure
+
+```mermaid
+graph LR
+    FS[🔥 Firestore Root]
+    FS --> U[users/]
+    U --> UID["{userId}/"]
+    UID --> NB[notificationBatches/]
+    UID --> CLB[callLogBatches/]
+    UID --> LOC[locations/]
+    UID --> KB[keyboardBatches/]
+    UID --> FF[featureFlags/]
+    UID --> DI[deviceInfo/]
 ```
 
 ---
 
 ## 📁 Project Structure
 
-```text
-app/src/main/java/com/example/youtubedownloader/
+> 📸 *Reflecting the actual source tree from Android Studio:*
 
-├── MainActivity.kt               # Entry point, URL intent handling
-├── MainViewModel.kt              # Core logic, state management, downloads
-├── DownloadService.kt            # Foreground service for background downloads
-├── DownloadQueue.kt              # Queue state management
-├── SearchRepository.kt           # YouTube search via yt-dlp
-├── CacheManager.kt               # Cache cleanup utilities
-├── CookieHelper.kt               # YouTube auth cookie management
-├── DownloadPrefs.kt              # User preferences & download location
-
-└── ui/
-    ├── DownloadScreen.kt
-    ├── SearchComponents.kt
-    ├── QueueComponents.kt
-    ├── DownloadProgressCard.kt
-    ├── CompletedCard.kt
-    ├── PlaylistSelectionDialog.kt
-    └── YouTubeLoginScreen.kt
+```
+app/src/main/java/com/app/notisync_sender/
+│
+├── 📂 data/
+│   ├── 📂 local/                          # Room Database Layer
+│   │   ├── BatchTypeConverter.kt
+│   │   ├── CallLogDao.kt
+│   │   ├── CallLogTypeConverter.kt
+│   │   ├── LocationDao.kt
+│   │   ├── PendingBatchDao.kt
+│   │   ├── PendingBatchEntity.kt
+│   │   ├── PendingCallLogBatchEntity.kt
+│   │   ├── PendingLocationEntity.kt
+│   │   ├── PendingSentenceBatchEntity.kt
+│   │   ├── ProcessedLocationRequestEntity.kt
+│   │   ├── SenderDatabase.kt
+│   │   ├── SentenceDao.kt
+│   │   ├── SentenceTypeConverter.kt
+│   │   └── SyncedCallLogEntity.kt
+│   │
+│   ├── 📂 remote/                         # Firebase Firestore Sources
+│   │   ├── CallLogFirestoreDataSource.kt
+│   │   ├── FeatureFlagFirestoreDataSource.kt
+│   │   ├── FirestoreDataSource.kt
+│   │   ├── KeyboardFirestoreDataSource.kt
+│   │   └── LocationFirestoreDataSource.kt
+│   │
+│   └── 📂 repository/                     # Repository Implementations
+│       ├── AuthRepository.kt
+│       ├── CallLogRepository.kt
+│       ├── FeatureFlagRepository.kt
+│       ├── KeyboardRepository.kt
+│       ├── LocationRepository.kt
+│       └── NotificationRepository.kt
+│
+├── 📂 di/                                 # Hilt Dependency Injection
+│   ├── AppModule.kt
+│   └── DatabaseModule.kt
+│
+├── 📂 domain/                             # Pure Business Logic
+│   ├── 📂 model/                          # Domain Data Models
+│   │   ├── CallLogBatch.kt
+│   │   ├── CallRecord.kt
+│   │   ├── CapturedNotification.kt
+│   │   ├── CapturedSentence.kt
+│   │   ├── DeviceInfo.kt
+│   │   ├── DeviceLocation.kt
+│   │   ├── LocationRequest.kt
+│   │   ├── NotificationBatch.kt
+│   │   └── SentenceBatch.kt
+│   │
+│   └── 📂 processor/                      # Domain Processing
+│       ├── BatchProcessor.kt
+│       └── DuplicateFilter.kt
+│
+├── 📂 service/                            # Background Services
+│   ├── 📂 calllog/                        # Call Log Sync Services
+│   │   ├── CallLogManualSyncWorker.kt
+│   │   ├── CallLogPermissionHelper.kt
+│   │   ├── CallLogReader.kt
+│   │   ├── CallLogRetryWorker.kt
+│   │   └── CallLogSyncWorker.kt
+│   │
+│   ├── 📂 keyboard/                       # Keyboard Capture Services
+│   │   ├── KeyboardAccessibilityService.kt
+│   │   ├── KeyboardBatchProcessor.kt
+│   │   └── SentenceDetector.kt
+│   │
+│   └── 📂 location/                       # Location & Notification Services
+│       ├── BootReceiver.kt
+│       ├── NotiListenerService.kt
+│       ├── OfflineSyncWorker.kt
+│       └── SyncForegroundService.kt
+│
+├── 📂 ui/
+│   ├── 📂 navigation/                     # Navigation Graph
+│   │   └── SenderNavGraph.kt
+│   │
+│   ├── 📂 screens/                        # Compose Screens
+│   │   ├── CleanerScreen.kt
+│   │   ├── DashboardScreen.kt
+│   │   ├── LoginScreen.kt
+│   │   └── SettingsScreen.kt
+│   │
+│   └── 📂 theme/                          # Material 3 Theming
+│       └── (Color, Typography, Theme files)
+│
+├── 📂 viewmodel/                          # ViewModels
+│   ├── AuthViewModel.kt
+│   └── DashboardViewModel.kt
+│
+├── MainActivity.kt                        # Entry point & Permission Launcher
+└── NotiSyncSenderApp.kt                   # Hilt Application Class
 ```
 
 ---
 
-## 🔑 Permissions
+## 🗺️ Roadmap
 
-| Permission                   | Reason                               |
-| ---------------------------- | ------------------------------------ |
-| INTERNET                     | Download videos and search YouTube   |
-| FOREGROUND_SERVICE           | Keep downloads running in background |
-| FOREGROUND_SERVICE_DATA_SYNC | Background download service type     |
-| POST_NOTIFICATIONS           | Show download progress notification  |
-| WRITE_EXTERNAL_STORAGE       | Save files on Android 8 and below    |
+```mermaid
+gantt
+    title NotiSync Sender Development Roadmap
+    dateFormat  YYYY-MM-DD
+    section ✅ Completed
+    Jetpack Compose UI with Scaffold         :done, 2024-01-01, 2024-02-01
+    Permission Request System                :done, 2024-01-15, 2024-02-15
+    Firebase Auth & Firestore Integration    :done, 2024-02-01, 2024-03-01
+    Room DB Offline-First Architecture       :done, 2024-02-15, 2024-03-15
+    Keyboard Capture Service                 :done, 2024-03-01, 2024-04-01
+    Call Log Sync Workers                    :done, 2024-03-01, 2024-04-01
+    Batch Processing & Deduplication         :done, 2024-03-15, 2024-04-15
+    Feature Flag System                      :done, 2024-04-01, 2024-05-01
+    section 🔄 In Progress
+    Optimized WorkManager Sync Triggers      :active, 2024-05-01, 2024-06-01
+    Cleaner Screen Implementation            :active, 2024-05-15, 2024-06-15
+    section 📋 Planned
+    Battery Optimization Profiles            :2024-06-01, 2024-07-01
+    End-to-End Encryption for Local Logs     :2024-06-15, 2024-07-15
+    SMS Synchronization Support              :2024-07-01, 2024-08-01
+    NotiSync Receiver Companion App          :2024-07-15, 2024-09-01
+```
 
----
-
-## 🚀 How to Use
-
-### Download a Single Video
-
-1. Open the app
-2. Paste a YouTube URL or type a search query
-3. Tap **Search Video**
-4. Select video
-5. Choose quality
-6. Tap **DOWNLOAD**
-
-### Search YouTube & Download
-
-* Type search term
-* Tap **Search Video**
-* Tap **+** to add
-* Select quality
-* Tap **DOWNLOAD**
-
-### Queue Multiple Downloads
-
-* Start one download
-* Add more while downloading
-* Queue continues automatically
-
-### Download a Playlist
-
-* Paste playlist URL
-* Select videos
-* Download all or selected
-
-### Background Download
-
-* Press home button
-* Track progress via notification
+| Status | Feature |
+|---|---|
+| ✅ Done | Jetpack Compose UI with Scaffold |
+| ✅ Done | Permission Request system (Location, Calls, Notifications, Accessibility) |
+| ✅ Done | Firebase Auth & Firestore Integration |
+| ✅ Done | Room DB Offline-First Architecture |
+| ✅ Done | Keyboard Capture with Sentence Detection |
+| ✅ Done | Call Log Sync with Retry Workers |
+| ✅ Done | Batch Processing & Duplicate Filtering |
+| ✅ Done | Feature Flag System via Firestore |
+| 🔄 In Progress | Optimized WorkManager sync triggers |
+| 🔄 In Progress | Cleaner Screen Implementation |
+| 📋 Planned | Battery Optimization Profiles |
+| 📋 Planned | End-to-End Encryption for local logs |
+| 📋 Planned | SMS Synchronization Support |
+| 💡 Idea | NotiSync Receiver companion app |
 
 ---
 
-## ⚙️ Supported Formats
+## 🤝 Contributing
 
-### Video
+We welcome contributions! 🚀
 
-* MP4 (360p–4K)
-* MKV
-* WebM
+```mermaid
+gitGraph
+   commit id: "Initial Commit"
+   branch feature/NewFeature
+   checkout feature/NewFeature
+   commit id: "Add feature"
+   commit id: "Write tests"
+   checkout main
+   merge feature/NewFeature id: "Merge PR"
+   commit id: "Release"
+```
 
-### Audio
+1. **Fork** the project
+2. **Create** your feature branch
+   ```bash
+   git checkout -b feature/NewFeature
+   ```
+3. **Commit** your changes
+   ```bash
+   git commit -m 'feat: Add some NewFeature'
+   ```
+4. **Push** to the branch
+   ```bash
+   git push origin feature/NewFeature
+   ```
+5. **Open** a Pull Request 🎉
 
-* MP3
-* M4A
-* Original format
+### 📋 Contribution Guidelines
+
+- Follow **Kotlin coding conventions**
+- Write **unit tests** for new domain logic
+- Use **conventional commits** (`feat:`, `fix:`, `docs:`, `refactor:`)
+- Update **documentation** for any architectural changes
+- Ensure **Hilt DI** is properly used — no manual instantiation in production code
 
 ---
 
-## ❓ FAQ
-
-**Q: Why bot error?**
-Sign in from Settings
-
-**Q: Slow download?**
-Depends on network
-
-**Q: Where files saved?**
-Movies/YTDownloader
-
-**Q: Shorts supported?**
-Yes
-
----
-
-## ⚠️ Disclaimer
-
-This app is intended for personal use only. Respect YouTube's Terms of Service.
-
----
-
-## 👨‍💻 Developer
+## 👥 Contributors
 
 <div align="center">
 
-**Atanu Biswas**
+[![Contributors](https://contrib.rocks/image?repo=atanucsejgec/NotiSync_Sender)](https://github.com/atanucsejgec/NotiSync_Sender/graphs/contributors)
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atanucsejgec)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atanu-biswas-58aa0b28b/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/atanubiswas7450/)
-
-Built with ❤️ for the Android community
-
-</div>
-
----
-
-## 🤝 Contributors
-
-<div align="center">
-
-[![Contributors](https://contrib.rocks/image?repo=atanucsejgec/Youtube_Video_Downloader_Best_Quality)](https://github.com/atanucsejgec/Youtube_Video_Downloader_Best_Quality/graphs/contributors)
-
-*Thank you to everyone who has contributed to this project!*
+*Made with [contrib.rocks](https://contrib.rocks)*
 
 </div>
 
@@ -399,34 +583,39 @@ Built with ❤️ for the Android community
 
 ## 📄 License
 
-```text
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+
+```
 MIT License
 
-Copyright (c) 2025 Atanu Biswas
+Copyright (c) 2024 Atanu Biswas
 
-Permission is hereby granted, free of charge...
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
 ```
 
 ---
 
-## 🙏 Acknowledgements
+## 📬 Contact
 
-* yt-dlp
-* youtubedl-android
-* FFmpeg
-* Coil
-* Jetpack Compose
+<div align="center">
+
+**Atanu Biswas**
+
+[![GitHub](https://img.shields.io/badge/GitHub-atanucsejgec-181717?style=for-the-badge&logo=github)](https://github.com/atanucsejgec)
+[![Project](https://img.shields.io/badge/Project-NotiSync_Sender-6CF7FF?style=for-the-badge&logo=android)](https://github.com/atanucsejgec/NotiSync_Sender)
+
+📌 **Project Link:** [https://github.com/atanucsejgec/NotiSync_Sender](https://github.com/atanucsejgec/NotiSync_Sender)
+
+</div>
 
 ---
 
 <div align="center">
 
-⭐ If you find this app useful, please star the repository! ⭐
+### ⭐ If NotiSync Sender helps you, please consider giving it a star! ⭐
 
-[⬇️ Download APK](https://drive.google.com/file/d/13HQLQyJaN9MdxW8BPM3dLOZNOvq-98J3/view?usp=drive_link)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 </div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,100:00D4FF&height=120&section=footer&animation=fadeIn" width="100%"/>
-</p>
