@@ -507,6 +507,7 @@ gantt
     End-to-End Encryption for Local Logs     :t12, 2024-06-15, 2024-07-15
     SMS Synchronization Support              :t13, 2024-07-01, 2024-08-01
     NotiSync Receiver Companion App          :t14, 2024-07-15, 2024-09-01
+
 ```
 
 | Status | Feature |
