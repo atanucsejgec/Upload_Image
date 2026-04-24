@@ -72,9 +72,28 @@ The app is engineered around **Clean Architecture** and **MVVM** principles, ens
 
 <div align="center">
 
-| Dashboard Screen | Permission Setup | Active Syncing | Settings |
-|---|---|---|---|
-| ![Dashboard](https://via.placeholder.com/200x400/1a1a2e/6CF7FF?text=Dashboard) | ![Permissions](https://via.placeholder.com/200x400/16213e/6CF7FF?text=Permissions) | ![Syncing](https://via.placeholder.com/200x400/0f3460/6CF7FF?text=Syncing) | ![Settings](https://via.placeholder.com/200x400/533483/6CF7FF?text=Settings) |
+<table>
+  <tr>
+    <td align="center"><b>🏠 Dashboard</b></td>
+    <td align="center"><b>🔐 Login</b></td>
+    <td align="center"><b>🔔 Permission Setup</b></td>
+    <td align="center"><b>⚙️ Settings</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img width="220" alt="Dashboard Screen" src="https://github.com/user-attachments/assets/1e19e6b9-c50b-4f33-936a-f9b62cef9278" />
+    </td>
+    <td>
+      <img width="220" alt="Login Screen" src="https://github.com/user-attachments/assets/5971737c-2e86-4aae-89c7-d57aef1c0251" />
+    </td>
+    <td>
+      <img width="220" alt="Permission Setup" src="https://github.com/user-attachments/assets/1e2c40dc-9ff5-4d04-b232-570a476dc067" />
+    </td>
+    <td>
+      <img width="220" alt="Settings Screen" src="https://github.com/user-attachments/assets/4babd5c2-abec-475a-9c08-bf5f6907f752" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
