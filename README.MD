@@ -487,26 +487,31 @@ app/src/main/java/com/app/notisync_sender/
 ## 🗺️ Roadmap
 
 ```mermaid
-gantt
-    title NotiSync Sender Development Roadmap
-    dateFormat YYYY-MM-DD
-    section Completed
-    Jetpack Compose UI with Scaffold        :done, t1, 2024-01-01, 2024-02-01
-    Permission Request System               :done, t2, 2024-01-15, 2024-02-15
-    Firebase Auth and Firestore Integration :done, t3, 2024-02-01, 2024-03-01
-    Room DB Offline First Architecture      :done, t4, 2024-02-15, 2024-03-15
-    Keyboard Capture Service                :done, t5, 2024-03-01, 2024-04-01
-    Call Log Sync Workers                   :done, t6, 2024-03-05, 2024-04-05
-    Batch Processing and Deduplication      :done, t7, 2024-03-15, 2024-04-15
-    Feature Flag System                     :done, t8, 2024-04-05, 2024-05-01
-    section In Progress
-    Optimized WorkManager Sync Triggers     :active, t9, 2024-05-01, 2024-06-01
-    Cleaner Screen Implementation           :active, t10, 2024-05-10, 2024-06-15
-    section Planned
-    Battery Optimization Profiles           :t11, 2024-06-01, 2024-07-01
-    End To End Encryption for Local Logs    :t12, 2024-06-15, 2024-07-15
-    SMS Synchronization Support             :t13, 2024-07-01, 2024-08-01
-    NotiSync Receiver Companion App         :t14, 2024-07-15, 2024-09-01
+graph LR
+    subgraph DONE["✅ Completed"]
+        A[Jetpack Compose UI]
+        B[Permission Request System]
+        C[Firebase Auth and Firestore]
+        D[Room DB Offline First]
+        E[Keyboard Capture Service]
+        F[Call Log Sync Workers]
+        G[Batch Processing]
+        H[Feature Flag System]
+    end
+
+    subgraph WIP["🔄 In Progress"]
+        I[WorkManager Sync Triggers]
+        J[Cleaner Screen]
+    end
+
+    subgraph PLAN["📋 Planned"]
+        K[Battery Optimization]
+        L[End to End Encryption]
+        M[SMS Synchronization]
+        N[Receiver Companion App]
+    end
+
+    DONE --> WIP --> PLAN
 ```
 
 | Status | Feature |
