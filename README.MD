@@ -106,20 +106,15 @@ Built with **vanilla HTML, CSS, and JavaScript**, it's lightweight, fast, and re
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center"><b>☀️ Light Mode</b></td>
-    <td align="center"><b>🌙 Dark Mode</b></td>
-  </tr>
-  <tr>
-    <td>
-      <img width="450" alt="Light Mode Preview" src="https://github.com/user-attachments/assets/a34a6b2d-b693-4979-bc7a-d4b7199018f0" />
-    </td>
-    <td>
-      <img width="450" alt="Dark Mode Preview" src="https://github.com/user-attachments/assets/6d28a407-87a0-437c-9978-64780831cdb4" />
-    </td>
-  </tr>
-</table>
+  <b>☀️ Light Mode</b>
+  <br>
+  <img width="450" alt="Light Mode Preview" src="https://github.com/user-attachments/assets/a34a6b2d-b693-4979-bc7a-d4b7199018f0" />
+
+  <br><br>
+
+  <b>🌙 Dark Mode</b>
+  <br>
+  <img width="450" alt="Dark Mode Preview" src="https://github.com/user-attachments/assets/6d28a407-87a0-437c-9978-64780831cdb4" />
 
 </div>
 
