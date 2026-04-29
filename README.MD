@@ -110,8 +110,6 @@ Built with **vanilla HTML, CSS, and JavaScript**, it's lightweight, fast, and re
   <br>
   <img  alt="Light Mode Preview" src="https://github.com/user-attachments/assets/a34a6b2d-b693-4979-bc7a-d4b7199018f0" />
 
-  <br><br>
-
   ## 🌙 Dark Mode</b>
   
   <img  alt="Dark Mode Preview" src="https://github.com/user-attachments/assets/6d28a407-87a0-437c-9978-64780831cdb4" />
