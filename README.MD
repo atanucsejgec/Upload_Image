@@ -379,22 +379,22 @@ graph TB
     end
 
     subgraph Logic["⚡ JavaScript Modules"]
-        APP[js/app.js<br/>State & Init]
-        UI_JS[js/ui.js<br/>Tabs, Zoom, Modals]
-        EDITOR[js/editor.js<br/>Content & Design]
-        MEDIA[js/media.js<br/>Screenshot Slots]
-        EXPORT[js/export.js<br/>PNG Download]
-        PRESETS[js/presets.js<br/>App Presets]
+        APP[app.js - State and Init]
+        UI_JS[ui.js - Tabs Zoom Modals]
+        EDITOR[editor.js - Content and Design]
+        MEDIA[media.js - Screenshot Slots]
+        EXPORT[export.js - PNG Download]
+        PRESETS[presets.js - App Presets]
     end
 
     subgraph Templates["📐 Template Engine"]
-        TMPL[templates/templates.js<br/>21+ Template Definitions]
-        PHONE[phoneMockup() helper]
+        TMPL[templates/templates.js - 12 Template Definitions]
+        PHONE[phoneMockup helper function]
     end
 
     subgraph Output["📤 Output"]
-        CANVAS[#bannerCanvas<br/>Live HTML Render]
-        PNG[1200×627 PNG<br/>Download]
+        CANVAS[bannerCanvas - Live HTML Render]
+        PNG[1200x627 PNG Download]
     end
 
     HTML --> Logic
@@ -404,10 +404,10 @@ graph TB
     APP --> MEDIA
     APP --> EXPORT
     APP --> PRESETS
-    EDITOR -->|collectState + collectColors| TMPL
-    TMPL -->|render HTML string| CANVAS
+    EDITOR --> TMPL
+    TMPL --> CANVAS
     TMPL --> PHONE
-    EXPORT -->|html2canvas| PNG
+    EXPORT --> PNG
 ```
 
 ### 🔄 Render Pipeline
@@ -439,18 +439,44 @@ sequenceDiagram
 
 ```mermaid
 graph LR
-    subgraph DATA["📦 data object passed to render()"]
-        S[data.state<br/>badge, h1, h2, subtitle<br/>features[], badges[]<br/>github, author, lifeStages]
-        C[data.colors<br/>bg1, bg2, gradDir<br/>a1, a2, hl]
-        M[data.screenshots<br/>dataUrl[0..2] or null]
-        P[data.phoneW / phoneTilt<br/>glowOpacity<br/>hs / ss / fs sizes]
+    subgraph STATE["data.state"]
+        S1[badge]
+        S2[h1 and h2]
+        S3[subtitle]
+        S4[features array]
+        S5[badges array]
+        S6[github and author]
+        S7[lifeStages]
     end
 
-    subgraph OUTPUT["🎨 render() → HTML string"]
-        HTML_OUT[Injected into #bannerCanvas]
+    subgraph COLORS["data.colors"]
+        C1[bg1 and bg2]
+        C2[gradDir]
+        C3[a1 and a2]
+        C4[hl highlight]
     end
 
-    DATA --> OUTPUT
+    subgraph MEDIA["data.media"]
+        M1[screenshots - 0 to 2]
+        M2[phoneW - width in px]
+        M3[phoneTilt - degrees]
+        M4[glowOpacity - 0 to 100]
+    end
+
+    subgraph SIZES["data.sizes"]
+        P1[hs - headline font size]
+        P2[ss - subtitle font size]
+        P3[fs - feature font size]
+    end
+
+    subgraph OUTPUT["render output"]
+        HTML_OUT[HTML string injected into bannerCanvas]
+    end
+
+    STATE --> HTML_OUT
+    COLORS --> HTML_OUT
+    MEDIA --> HTML_OUT
+    SIZES --> HTML_OUT
 ```
 
 ---
