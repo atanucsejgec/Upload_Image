@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=🧮%20Tip%20Calculator&fontSize=55&fontColor=fff&animation=twinkling&desc=Calculate%20%7C%20Split%20%7C%20Round%20Up&descAlignY=62&descColor=fff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=🧮%20Tip%20Calculator&fontSize=55&fontColor=fff&animation=twinkling&desc=Calculate%20%7C%20Split%20%7C%20Round%20Up&descAlignY=70&descColor=fff" />
 
 <br/>
 
