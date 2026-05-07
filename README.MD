@@ -1,30 +1,29 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=LinkedIn%20Banner%20Designer&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Design%20%7C%20Customize%20%7C%20Export%20Professional%20LinkedIn%20Banners&descAlignY=62&descColor=fff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=🧮%20Tip%20Calculator&fontSize=55&fontColor=fff&animation=twinkling&desc=Calculate%20%7C%20Split%20%7C%20Round%20Up&descAlignY=62&descColor=fff" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6CF7FF&center=true&vCenter=true&width=750&lines=🎨+Design+Professional+LinkedIn+Banners;📱+12%2B+Unique+Templates+with+Different+Layouts;📸+Multi+Screenshot+Support+(1%2F2%2F3+Phones);⬇️+Export+as+High-Quality+PNG+(1200×627);⚡+Zero+Dependencies+—+Pure+HTML%2C+CSS+%26+JS;🎯+Quick+App+Swap+Presets+Built+In)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=03DAC5&center=true&vCenter=true&width=650&lines=🧮+Calculate+Tips+Instantly;💰+Split+Bills+Among+Friends;🔄+Round+Up+Tips+with+One+Tap;🎯+Built+with+Jetpack+Compose+%26+Material+3;✨+Minimal+%7C+Clean+%7C+Fast)](https://git.io/typing-svg)
 
 <br/>
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/atanucsejgec/LinkedIn_Banner_Designer?style=for-the-badge&color=yellow)](https://github.com/atanucsejgec/LinkedIn_Banner_Designer/stargazers)
-[![Issues](https://img.shields.io/github/issues/atanucsejgec/LinkedIn_Banner_Designer?style=for-the-badge&color=red)](https://github.com/atanucsejgec/LinkedIn_Banner_Designer/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/atanucsejgec/LinkedIn_Banner_Designer?style=for-the-badge&color=green)](https://github.com/atanucsejgec/LinkedIn_Banner_Designer/commits)
-[![Website](https://img.shields.io/badge/🌐_Live_Demo-Visit_Now-6CF7FF?style=for-the-badge)](https://atanucsejgec.github.io/LinkedIn_Banner_Designer/)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
+[![Material 3](https://img.shields.io/badge/Material%203-Design-757575?style=for-the-badge&logo=materialdesign&logoColor=white)](https://m3.material.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 <br/>
 
-> 🎨 **LinkedIn Banner Designer** is a powerful, browser-based design tool that lets you create stunning, professional LinkedIn post banners — with **21+ unique templates**, **multi-screenshot phone mockups**, **live editing**, and **one-click PNG export** at perfect 1200×627 resolution. No design skills required.
+> 🧮 **Tip Calculator** is a clean, minimal Android app that calculates tips,
+> totals, and per-person splits instantly — built with **Jetpack Compose**,
+> **Material 3**, and showcases core **Kotlin function concepts**.
 
 <br/>
 
-[🌐 Live Demo](https://atanucsejgec.github.io/LinkedIn_Banner_Designer/) &bull; [🚀 Getting Started](#️-getting-started) &bull; [✨ Features](#-features) &bull; [📐 Templates](#-templates) &bull; [📁 Structure](#-project-structure) &bull; [🤝 Contribute](#-contributing)
+[📥 Download App](#-download) • [🚀 Getting Started](#-getting-started) • [✨ Features](#-features) • [📚 Key Concepts](#-key-concepts-learned) • [🏗️ Architecture](#-architecture) • [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -32,115 +31,86 @@
 
 ## 📖 Table of Contents
 
-- [📖 Table of Contents](#-table-of-contents)
-- [📌 About](#-about)
-- [🎯 Why LinkedIn Banner Designer?](#-why-linkedin-banner-designer)
+- [🌟 About](#-about)
+- [📥 Download](#-download)
 - [📸 Screenshots](#-screenshots)
-  - [🖥️ Designer Interface](#️-designer-interface)
-  - [📐 Template Gallery](#-template-gallery)
-  - [📱 Multi-Screenshot Templates](#-multi-screenshot-templates)
 - [✨ Features](#-features)
-- [📐 Templates](#-templates)
-  - [➕ Adding More Templates](#-adding-more-templates)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🏗️ Architecture](#️-architecture)
-  - [📐 Application Flow](#-application-flow)
-  - [🔄 Render Pipeline](#-render-pipeline)
-  - [🧩 Template Data Contract](#-template-data-contract)
-- [⚙️ Getting Started](#️-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Quick Start](#quick-start)
-  - [🔧 Optional: Local Server](#-optional-local-server)
+- [📚 Key Concepts Learned](#-key-concepts-learned)
+- [🛠️ Tech Stack](#-tech-stack)
+- [🏗️ Architecture](#-architecture)
+- [🚀 Getting Started](#-getting-started)
+- [🧪 Running Tests](#-running-tests)
 - [📁 Project Structure](#-project-structure)
-- [🗺️ Roadmap](#️-roadmap)
+- [🗺️ Roadmap](#-roadmap)
 - [🤝 Contributing](#-contributing)
-  - [📋 Contribution Guidelines](#-contribution-guidelines)
-- [👥 Contributors](#-contributors)
 - [📄 License](#-license)
 - [📬 Contact](#-contact)
-  - [⭐ If this tool helps you create better LinkedIn posts, please give it a star! ⭐](#-if-this-tool-helps-you-create-better-linkedin-posts-please-give-it-a-star-)
 
 ---
 
-## 📌 About
+## 🌟 About
 
-**LinkedIn Banner Designer** is a fully client-side web application for designing professional LinkedIn post banners without any design software. It ships with **21+ handcrafted templates**, each with a unique layout, color scheme, and screenshot arrangement — from classic split layouts to neon glow, terminal code style, triple phone showcases, and more.
+**Tip Calculator** is a minimal yet powerful Android app that lets you:
+- Enter any **bill amount**
+- Adjust **tip percentage** via a smooth slider (0% – 30%)
+- **Round up** the tip with a single toggle
+- **Split the bill** among any number of people
 
-Built with **vanilla HTML, CSS, and JavaScript** and architected into clean, modular files, it's lightweight, fast, and works entirely in your browser. Just open `index.html` and start designing.
+It is built as a **hands-on Kotlin learning project** demonstrating:
+
+- 🧩 **Jetpack Compose** for declarative UI — no XML layouts
+- 💡 **Compose State APIs** (`remember`, `mutableStateOf`) for reactive updates
+- 🎨 **Material 3** theming with `OutlinedTextField`, `Slider`, `Switch`, and `Button`
+- 🔧 **Core Kotlin Function Concepts** — default parameters, extension functions,
+  single-expression functions, higher-order functions, and named arguments
+
+### 🎯 Who Is This For?
+
+| Audience | Benefit |
+|---|---|
+| 👶 Android Beginners | A clean reference for Compose State management |
+| 🧩 Kotlin Learners | Hands-on practice with advanced function features |
+| 🎨 UI/UX Enthusiasts | Modern Material 3 components in action |
+| 🔬 Compose Explorers | See recomposition and state flow work in practice |
+| 🧪 Testers | Simple base to add unit and UI tests |
 
 ---
 
-## 🎯 Why LinkedIn Banner Designer?
+## 📥 Download
 
-<table>
-  <tr>
-    <td align="center">🔒</td>
-    <td><b>100% Private</b></td>
-    <td>Everything runs in your browser. Your screenshots and content never leave your device — no uploads, no cloud, no tracking.</td>
-  </tr>
-  <tr>
-    <td align="center">⚡</td>
-    <td><b>Zero Setup</b></td>
-    <td>No <code>npm install</code>, no build step, no backend required. Open <code>index.html</code> in any modern browser and start designing instantly.</td>
-  </tr>
-  <tr>
-    <td align="center">🎨</td>
-    <td><b>21+ Unique Templates</b></td>
-    <td>Every template is truly different — unique layout, color scheme, screenshot position, and style. Not just a color swap.</td>
-  </tr>
-  <tr>
-    <td align="center">📱</td>
-    <td><b>Multi-Screenshot Support</b></td>
-    <td>Some templates support 1, 2, or even 3 phone mockups simultaneously — perfect for showcasing multiple app screens.</td>
-  </tr>
-  <tr>
-    <td align="center">🔄</td>
-    <td><b>Quick App Swap</b></td>
-    <td>Built-in presets for Age Calculator, Todo App, Weather App, Chat App, and Quiz App. Switch your banner content in one click.</td>
-  </tr>
-  <tr>
-    <td align="center">💾</td>
-    <td><b>Save & Reload Designs</b></td>
-    <td>Save your current design and reload it any time in the same session. Duplicate designs to iterate quickly.</td>
-  </tr>
-  <tr>
-    <td align="center">📐</td>
-    <td><b>Perfect Dimensions</b></td>
-    <td>All banners are rendered at exactly 1200×627 px — the optimal LinkedIn post image ratio (1.91:1).</td>
-  </tr>
-  <tr>
-    <td align="center">🧩</td>
-    <td><b>Extensible Templates</b></td>
-    <td>Templates live in a single file (<code>templates/templates.js</code>). Add more by just pushing new objects into the array.</td>
-  </tr>
-</table>
+<div align="center">
+
+[![Download APK](https://img.shields.io/badge/⬇%20Download%20APK-Latest%20Release-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://drive.google.com/file/d/1Jtbw0VTVEhi-lGhqVT4ZSExheS98Z65n/view?usp=sharing)
+[![Play Store](https://img.shields.io/badge/🚀%20Play%20Store-Coming%20Soon-FFCA28?style=for-the-badge&logo=googleplay&logoColor=black)](#)
+
+</div>
 
 ---
 
 ## 📸 Screenshots
 
-> 💡 A dark-themed, professional designer interface with live canvas preview.
+> 💡 A clean, minimal UI built entirely with Jetpack Compose and Material 3.
 
 <div align="center">
 
-### 🖥️ Designer Interface
-
-<!-- Replace with actual screenshots after upload -->
-<img alt="Designer Interface" src="https://github.com/user-attachments/assets/f654406e-3d6c-4636-982c-debafc06fe98" />
-
-<br/><br/>
-
-### 📐 Template Gallery
-
-<img alt="Template Gallery" src="https://github.com/user-attachments/assets/2799cce0-20d0-4b47-ba27-e00ba282da9b" />
-
-<br/><br/>
-
-### 📱 Multi-Screenshot Templates
-
-<img alt="Multi Screenshot" src="https://github.com/user-attachments/assets/add54be3-317f-41af-8f76-a4ed0c39c064" />
+<table>
+  <tr>
+    <td align="center"><b>Calculator Screen</b></td>
+    <td align="center"><b>Result View</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img width="300" alt="Calculator Screen" src="[screenshots/screen1.png](https://github.com/user-attachments/assets/36f3acd0-5d6c-42d8-a40e-b43f62a8fbf6)"/>
+    </td>
+    <td>
+      <img width="300" alt="Result View" src="https://github.com/user-attachments/assets/59fc4dd6-198f-46e7-9710-0a8b35bbcb76"/>
+    </td>
+  </tr>
+</table>
 
 </div>
+
+
 
 ---
 
@@ -148,196 +118,217 @@ Built with **vanilla HTML, CSS, and JavaScript** and architected into clean, mod
 
 <table>
   <tr>
-    <td>📐 <b>21+ Unique Templates</b></td>
-    <td>Every template has a completely different layout structure, screenshot count, color philosophy, and design language</td>
+    <td>🧩 <b>Modern Compose UI</b></td>
+    <td>Built entirely with <b>Jetpack Compose</b> and <b>Material 3</b> — no XML layouts, pure declarative UI</td>
   </tr>
   <tr>
-    <td>📱 <b>Multi-Screenshot Mockups</b></td>
-    <td>Templates support 0, 1, 2, or 3 phone screenshots with realistic phone frames, notch, glow effects, and tilt controls</td>
+    <td>🎚️ <b>Tip Slider</b></td>
+    <td>Smooth <b>0% to 30%</b> tip slider with real-time percentage display</td>
   </tr>
   <tr>
-    <td>✍️ <b>Live Content Editing</b></td>
-    <td>Edit badge, headline (2 lines), subtitle, description, life stages row, GitHub link, and author handle — all update in real time</td>
+    <td>⬆️ <b>Round Up Toggle</b></td>
+    <td>One-tap <b>Switch</b> to round up the tip to the nearest whole dollar</td>
   </tr>
   <tr>
-    <td>✅ <b>Feature Points Manager</b></td>
-    <td>Add, edit, remove, and reorder feature bullet points that appear in the banner dynamically</td>
+    <td>👥 <b>Bill Splitter</b></td>
+    <td>Split the total among <b>any number of people</b> using + / - buttons</td>
   </tr>
   <tr>
-    <td>🏷️ <b>Tech Badge Manager</b></td>
-    <td>Add custom tech badges with your own label and color — full color picker included</td>
+    <td>💰 <b>Instant Results</b></td>
+    <td>Displays <b>Tip Amount</b>, <b>Total Bill</b>, and <b>Per Person cost</b> on one tap</td>
   </tr>
   <tr>
-    <td>🎨 <b>Full Color Customization</b></td>
-    <td>Control background gradient (2 colors + direction), primary accent, secondary accent, and headline highlight color</td>
+    <td>🔧 <b>Default Parameters</b></td>
+    <td>Functions use smart defaults — <code>tipPercent = 15.0</code>, <code>roundUp = false</code></td>
   </tr>
   <tr>
-    <td>🔤 <b>Typography Controls</b></td>
-    <td>Adjust headline, subtitle, and feature text sizes individually with range sliders</td>
+    <td>🔗 <b>Extension Functions</b></td>
+    <td><code>Double.toCurrencyString()</code> formats any number as <code>$XX.XX</code></td>
   </tr>
   <tr>
-    <td>📏 <b>Phone Mockup Controls</b></td>
-    <td>Control phone tilt angle, phone size, and glow intensity independently per banner</td>
+    <td>⚡ <b>Higher-Order Functions</b></td>
+    <td><code>splitBill()</code> accepts a <b>lambda formatter</b> — clean and flexible design</td>
   </tr>
   <tr>
-    <td>🔀 <b>Layout Toggles</b></td>
-    <td>Toggle top bar, footer, background circles, sparkle effects, and phone frame on/off</td>
+    <td>🏗️ <b>Single Activity Design</b></td>
+    <td>Clean architecture with a single <code>MainActivity.kt</code> as the only entry point</td>
   </tr>
   <tr>
-    <td>⚡ <b>Quick App Presets</b></td>
-    <td>One-click presets for 5 app types: Age Calculator, Todo App, Weather App, Chat App, Quiz App</td>
-  </tr>
-  <tr>
-    <td>💾 <b>Save & Load Designs</b></td>
-    <td>Save multiple designs in session memory, reload or delete them from the Templates panel</td>
-  </tr>
-  <tr>
-    <td>📋 <b>Duplicate Design</b></td>
-    <td>Instantly duplicate your current design to iterate without losing the original</td>
-  </tr>
-  <tr>
-    <td>↺ <b>Reset to Default</b></td>
-    <td>One-click reset that restores all content, colors, and design settings to defaults</td>
-  </tr>
-  <tr>
-    <td>🔍 <b>Zoom & Fit Controls</b></td>
-    <td>Zoom the canvas from 15% to 100%, or auto-fit to your screen with one click</td>
-  </tr>
-  <tr>
-    <td>⬇️ <b>PNG Export (1200×627)</b></td>
-    <td>High-quality PNG download at 2× resolution using <code>html2canvas</code> — ready to upload to LinkedIn</td>
-  </tr>
-  <tr>
-    <td>👁️ <b>Preview Modal</b></td>
-    <td>Full preview of the rendered banner before downloading</td>
-  </tr>
-  <tr>
-    <td>⌨️ <b>Keyboard Shortcuts</b></td>
-    <td><code>Ctrl+S</code> Save &nbsp; <code>Ctrl+D</code> Download &nbsp; <code>Ctrl++</code> Zoom In &nbsp; <code>Ctrl+-</code> Zoom Out &nbsp; <code>Ctrl+0</code> Fit</td>
+    <td>📦 <b>Lightweight & Fast</b></td>
+    <td>Zero heavy external dependencies — just Compose and Material 3</td>
   </tr>
 </table>
 
 ---
 
-## 📐 Templates
+## 📚 Key Concepts Learned
 
-All 12 templates have unique layouts, styles, and screenshot arrangements:
+> 💡 This project was built as a **hands-on Kotlin learning showcase**.
+> Every function in the code teaches a specific Kotlin concept.
 
-<table>
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Template Name</th>
-      <th>Screenshots</th>
-      <th>Style / Layout</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>01</td>
-      <td>🖼️ <b>Classic Split</b></td>
-      <td>1 Phone</td>
-      <td>Phone left, text right — clean Material 3 style</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>🎯 <b>Hero Center</b></td>
-      <td>1 Phone</td>
-      <td>Large headline left, phone floated right, description included</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>📱📱 <b>Dual Screenshot</b></td>
-      <td>2 Phones</td>
-      <td>Two phones side-by-side with staggered tilt, text left</td>
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>📱📱📱 <b>Triple Showcase</b></td>
-      <td>3 Phones</td>
-      <td>Three cascaded phones at top, text overlay band at bottom</td>
-    </tr>
-    <tr>
-      <td>05</td>
-      <td>💻 <b>Terminal Code</b></td>
-      <td>1 Phone</td>
-      <td>Kotlin-styled code block left, phone right, scanline overlay</td>
-    </tr>
-    <tr>
-      <td>06</td>
-      <td>📊 <b>Stats Cards</b></td>
-      <td>1 Phone</td>
-      <td>Metric stat boxes, features, phone right — data-driven look</td>
-    </tr>
-    <tr>
-      <td>07</td>
-      <td>⚡ <b>Feature Grid</b></td>
-      <td>1 Phone</td>
-      <td>2×2 feature cards grid bottom-left, phone top-right</td>
-    </tr>
-    <tr>
-      <td>08</td>
-      <td>⬡ <b>Diagonal Split</b></td>
-      <td>1 Phone</td>
-      <td>CSS clip-path diagonal background split, dynamic feel</td>
-    </tr>
-    <tr>
-      <td>09</td>
-      <td>☀️ <b>Minimal Light</b></td>
-      <td>1 Phone</td>
-      <td>Light/pastel background, soft shadows — clean professional</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>⚡ <b>Neon Glow</b></td>
-      <td>1 Phone</td>
-      <td>Cyberpunk neon glow, grid overlay, glowing text & borders</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>📄 <b>Text Only</b></td>
-      <td>No Phone</td>
-      <td>Pure text 2-column feature layout — great for concept posts</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>📢 <b>Announcement</b></td>
-      <td>1 Phone</td>
-      <td>Bold mega headline, thick top bar, high-energy launch style</td>
-    </tr>
-  </tbody>
-</table>
+---
 
-### ➕ Adding More Templates
+### 🔧 1. Functions with Default Parameters
 
-Templates are fully isolated in `templates/templates.js`. To add a new one:
-
-```javascript
-// Push a new object into the TEMPLATES array
-TEMPLATES.push({
-  id:          'my-template',      // unique kebab-case key
-  name:        'My Template',      // display name in UI
-  tag:         '1 Screenshot',     // shown under thumbnail
-  screenshots: 1,                  // 0 | 1 | 2 | 3
-  thumb: {
-    bg:    'linear-gradient(135deg, #000, #333)',
-    emoji: '🚀',
-    label: 'My Style'
-  },
-  render(d) {
-    // d.state     → { badge, h1, h2, subtitle, features[], badges[], ... }
-    // d.colors    → { bg1, bg2, gradDir, a1, a2, hl }
-    // d.screenshots → [dataUrl|null, dataUrl|null, dataUrl|null]
-    // d.phoneW    → phone width in px
-    // d.phoneTilt → rotation degrees
-    // d.glowOpacity → 0-100
-    // d.hs / d.ss / d.fs → headline / subtitle / feature font sizes
-    return `<div>...your HTML...</div>`;
-  }
-});
+```kotlin
+fun calculateTip(
+    billAmount: Double,
+    tipPercent: Double = 15.0,  // default parameter
+    roundUp: Boolean = false    // default parameter
+): Double {
+    var tip = billAmount * (tipPercent / 100.0)
+    if (roundUp) {
+        tip = kotlin.math.ceil(tip)
+    }
+    return tip
+}
 ```
 
-> 💡 Use the shared helper `phoneMockup(src, width, tilt, glow, color)` to render phone mockups consistently across all templates.
+| Parameter | Default | Meaning |
+|---|---|---|
+| `tipPercent` | `15.0` | Standard tip if user doesn't specify |
+| `roundUp` | `false` | No rounding unless explicitly requested |
+
+> ✅ Default parameters remove the need for multiple overloaded functions.
+
+---
+
+### ⚡ 2. Single-Expression Function (One-Liner)
+
+```kotlin
+fun calculateTotal(bill: Double, tip: Double): Double = bill + tip
+```
+
+- No `{}` body needed — the result is the expression itself
+- Cleaner, more readable for simple calculations
+- Equivalent to writing `return bill + tip` in a full function body
+
+---
+
+### 🔗 3. Extension Function — Adds Method to Existing Class
+
+```kotlin
+fun Double.toCurrencyString(): String = "$${String.format("%.2f", this)}"
+```
+
+| Usage | Result |
+|---|---|
+| `25.5.toCurrencyString()` | `$25.50` |
+| `100.0.toCurrencyString()` | `$100.00` |
+| `0.333.toCurrencyString()` | `$0.33` |
+
+> ✅ Extension functions let you add methods to existing types without modifying them.
+
+---
+
+### 🏗️ 4. Higher-Order Function — Function as Parameter
+
+```kotlin
+fun splitBill(
+    total: Double,
+    numberOfPeople: Int,
+    formatter: (Double) -> String  // Lambda parameter
+): String {
+    val perPerson = total / numberOfPeople
+    return formatter(perPerson)    // Call the passed function
+}
+```
+
+**Usage with Lambda:**
+```kotlin
+val perPerson = splitBill(total, splitCount) { amount ->
+    amount.toCurrencyString()  // extension function inside lambda
+}
+```
+
+| Concept | What It Means |
+|---|---|
+| `(Double) -> String` | A function that takes a Double and returns a String |
+| `{ amount -> ... }` | Lambda expression passed as the formatter argument |
+| Flexibility | Caller decides how to format — function stays generic |
+
+---
+
+### 📝 5. Named Arguments — Clearer Function Calls
+
+```kotlin
+val tip = calculateTip(
+    billAmount = bill,
+    tipPercent = tipPercent.toDouble(),
+    roundUp = roundUp
+)
+```
+
+- Makes the call **self-documenting** — no need to check function signature
+- **Order doesn't matter** when using named arguments
+- Reduces bugs from accidentally swapping argument positions
+
+---
+
+### 🔄 6. Compose State — `remember` + `mutableStateOf`
+
+```kotlin
+var billInput   by remember { mutableStateOf("") }
+var tipPercent  by remember { mutableStateOf(15f) }
+var roundUp     by remember { mutableStateOf(false) }
+var splitCount  by remember { mutableStateOf(1) }
+var result      by remember { mutableStateOf("") }
+```
+
+| API | Role |
+|---|---|
+| `mutableStateOf()` | Creates a reactive state holder — UI auto-updates on change |
+| `remember {}` | Keeps state alive across recompositions |
+| `by` (delegation) | Write `tipPercent = 20f` instead of `tipPercent.value = 20f` |
+
+```
+User moves Slider
+    → onValueChange fires
+        → mutableStateOf updates tipPercent
+            → Compose detects state change
+                → UI recomposes automatically
+                    → New percentage displayed ✅
+```
+
+---
+
+### 🔁 7. Recomposition Flow — How It All Works Together
+
+```mermaid
+graph TD
+    A[👤 User Enters Bill Amount] --> B[onValueChange fires]
+    B --> C[mutableStateOf updates billInput]
+    C --> D[Compose detects State change]
+    D --> E[TipCalculatorScreen Recomposes]
+    E --> F[TextField re-renders with new value ✅]
+
+    G[🎚️ User Moves Tip Slider] --> H[tipPercent State updates]
+    H --> I[Tip percentage text recomposes]
+
+    J[🔘 User Clicks Calculate] --> K[Button onClick lambda executes]
+    K --> L[calculateTip called with named args]
+    L --> M[calculateTotal called]
+    M --> N[toCurrencyString extension used]
+    N --> O[splitBill called with lambda formatter]
+    O --> P[result State updated]
+    P --> Q[Text composable recomposes]
+    Q --> R[🧮 Result displayed on screen ✅]
+```
+
+---
+
+### 📊 8. Summary — All Concepts at a Glance
+
+| # | Concept | Where Used in Code |
+|---|---|---|
+| 1 | Default Parameters | `calculateTip(tipPercent = 15.0, roundUp = false)` |
+| 2 | Single-Expression Function | `fun calculateTotal(...): Double = bill + tip` |
+| 3 | Extension Function | `fun Double.toCurrencyString()` |
+| 4 | Higher-Order Function | `fun splitBill(..., formatter: (Double) -> String)` |
+| 5 | Named Arguments | `calculateTip(billAmount = bill, tipPercent = ...)` |
+| 6 | `remember` + `mutableStateOf` | All 5 state variables in `TipCalculatorScreen` |
+| 7 | Lambda Expression | `splitBill(total, splitCount) { amount -> ... }` |
+| 8 | Recomposition Flow | Auto UI refresh triggered by any state change |
 
 ---
 
@@ -345,278 +336,191 @@ TEMPLATES.push({
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,git,github&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=kotlin,androidstudio,gradle,git,github&theme=dark)](https://skillicons.dev)
 
 </div>
 
 <br/>
 
-| Category | Technology |
-|---|---|
-| 🏗️ Structure | HTML5 (Semantic) |
-| 🎨 Styling | Vanilla CSS3 (Custom Properties, Grid, Flexbox, clip-path) |
-| ⚡ Logic | Vanilla JavaScript (ES6+, no frameworks) |
-| 📸 PNG Export | [html2canvas](https://html2canvas.hertzen.com/) v1.4.1 |
-| 📐 Canvas Rendering | Pure HTML/CSS injected into `#bannerCanvas` |
-| 💾 Session Storage | JavaScript in-memory state object |
-| 📦 Dependencies | Zero build tools — single CDN for html2canvas |
+| Category | Technology | Purpose |
+|---|---|---|
+| 🔤 **Language** | Kotlin 1.9+ | Primary programming language |
+| 🧩 **UI Framework** | Jetpack Compose | Declarative modern UI toolkit |
+| 🎨 **Design System** | Material 3 | Components, theming & styling |
+| 🔄 **State Management** | `remember` + `mutableStateOf` | Reactive UI without ViewModel |
+| 🏗️ **Architecture** | Single Activity + Compose | Minimal, focused app structure |
+| 🔨 **Build System** | Gradle (Kotlin DSL) | Build and dependency management |
 
 ---
 
 ## 🏗️ Architecture
 
-LinkedIn Banner Designer uses a clean **multi-file modular architecture** with clear separation of concerns. No frameworks, no bundlers — just organized vanilla JavaScript.
+Tip Calculator follows a **Compose-first single-activity architecture** — keeping
+everything clean, minimal, and easy to follow.
 
-### 📐 Application Flow
+### 🗂️ Architecture Diagram
 
 ```mermaid
 graph TB
-    subgraph UI["🎨 UI Layer"]
-        HTML[index.html]
-        CSS_MAIN[css/main.css]
-        CSS_PANEL[css/panel.css]
-        CSS_BANNER[css/banner.css]
+    subgraph UI["🧩 UI Layer (Jetpack Compose)"]
+        MA[MainActivity.kt]
+        TCS[TipCalculatorScreen Composable]
+        TF[OutlinedTextField — Bill Input]
+        SL[Slider — Tip Percent]
+        SW[Switch — Round Up]
+        ROW[Row — Split Count Buttons]
+        BTN[Button — Calculate]
+        TXT[Text — Result Display]
     end
 
-    subgraph Logic["⚡ JavaScript Modules"]
-        APP[app.js - State and Init]
-        UI_JS[ui.js - Tabs Zoom Modals]
-        EDITOR[editor.js - Content and Design]
-        MEDIA[media.js - Screenshot Slots]
-        EXPORT[export.js - PNG Download]
-        PRESETS[presets.js - App Presets]
+    subgraph State["💡 State Layer (Compose State APIs)"]
+        S1[remember — billInput]
+        S2[remember — tipPercent]
+        S3[remember — roundUp]
+        S4[remember — splitCount]
+        S5[remember — result]
     end
 
-    subgraph Templates["📐 Template Engine"]
-        TMPL[templates/templates.js - 12 Template Definitions]
-        PHONE[phoneMockup helper function]
+    subgraph Logic["⚙️ Business Logic (Pure Kotlin Functions)"]
+        CT[calculateTip — default params + roundUp]
+        CTT[calculateTotal — single expression]
+        CS[toCurrencyString — extension function]
+        SB[splitBill — higher-order function]
     end
 
-    subgraph Output["📤 Output"]
-        CANVAS[bannerCanvas - Live HTML Render]
-        PNG[1200x627 PNG Download]
-    end
-
-    HTML --> Logic
-    HTML --> Templates
-    APP --> UI_JS
-    APP --> EDITOR
-    APP --> MEDIA
-    APP --> EXPORT
-    APP --> PRESETS
-    EDITOR --> TMPL
-    TMPL --> CANVAS
-    TMPL --> PHONE
-    EXPORT --> PNG
+    MA --> TCS
+    TCS --> TF & SL & SW & ROW & BTN & TXT
+    TF --> S1
+    SL --> S2
+    SW --> S3
+    ROW --> S4
+    BTN --> Logic
+    Logic --> CT --> CTT --> CS --> SB
+    SB --> S5
+    S5 --> TXT
 ```
 
-### 🔄 Render Pipeline
+### 🔄 State Flow Diagram
 
 ```mermaid
 sequenceDiagram
     participant User as 👤 User
-    participant Panel as 📝 Control Panel
-    participant Editor as ⚡ editor.js
-    participant Template as 📐 templates.js
-    participant Canvas as 🖼️ #bannerCanvas
-    participant Export as ⬇️ export.js
+    participant Input as 📝 OutlinedTextField
+    participant Slider as 🎚️ Tip Slider
+    participant State as 💡 Compose State
+    participant Logic as ⚙️ Business Logic
+    participant UI as 🧮 Result Text
 
-    User->>Panel: Edit content / design / media
-    Panel->>Editor: oninput / onchange events
-    Editor->>Editor: collectState() + collectColors()
-    Editor->>Template: renderBanner(data)
-    Template->>Template: Find active template
-    Template->>Template: template.render(data) → HTML string
-    Template->>Canvas: innerHTML = rendered HTML
-    Canvas->>User: Live visual update ✅
+    User->>Input: Types Bill Amount (e.g. 50.00)
+    Input->>State: onValueChange → billInput = "50.00"
+    State->>UI: Recomposition → TextField updates
 
-    User->>Export: Click Download PNG
-    Export->>Canvas: html2canvas(bannerCanvas, scale:2)
-    Export->>User: 1200×627 PNG downloaded ⬇️
+    User->>Slider: Moves slider to 20%
+    Slider->>State: onValueChange → tipPercent = 20f
+    State->>UI: Recomposition → "Tip: 20%" text updates
+
+    User->>UI: Clicks Calculate Button
+    UI->>Logic: onClick lambda fires
+    Logic->>Logic: calculateTip(50.0, 20.0, false) = 10.0
+    Logic->>Logic: calculateTotal(50.0, 10.0) = 60.0
+    Logic->>Logic: toCurrencyString() → "$10.00", "$60.00"
+    Logic->>Logic: splitBill(60.0, 2) { toCurrencyString() } = "$30.00"
+    Logic->>State: result = "Tip: $10.00\nTotal: $60.00\nPer person: $30.00"
+    State->>UI: Recomposition triggered
+    UI->>User: ✅ Result displayed on screen
 ```
 
-### 🧩 Template Data Contract
+### 📋 Layer Responsibilities
 
-```mermaid
-graph LR
-    subgraph STATE["data.state"]
-        S1[badge]
-        S2[h1 and h2]
-        S3[subtitle]
-        S4[features array]
-        S5[badges array]
-        S6[github and author]
-        S7[lifeStages]
-    end
-
-    subgraph COLORS["data.colors"]
-        C1[bg1 and bg2]
-        C2[gradDir]
-        C3[a1 and a2]
-        C4[hl highlight]
-    end
-
-    subgraph MEDIA["data.media"]
-        M1[screenshots - 0 to 2]
-        M2[phoneW - width in px]
-        M3[phoneTilt - degrees]
-        M4[glowOpacity - 0 to 100]
-    end
-
-    subgraph SIZES["data.sizes"]
-        P1[hs - headline font size]
-        P2[ss - subtitle font size]
-        P3[fs - feature font size]
-    end
-
-    subgraph OUTPUT["render output"]
-        HTML_OUT[HTML string injected into bannerCanvas]
-    end
-
-    STATE --> HTML_OUT
-    COLORS --> HTML_OUT
-    MEDIA --> HTML_OUT
-    SIZES --> HTML_OUT
-```
+| Layer | Component | Responsibility |
+|---|---|---|
+| **UI** | `TipCalculatorScreen` | Renders all composables — input, slider, switch, buttons, result |
+| **State** | `remember` + `mutableStateOf` | Holds all 5 reactive state variables |
+| **Logic** | Pure Kotlin Functions | `calculateTip`, `calculateTotal`, `toCurrencyString`, `splitBill` |
+| **Entry** | `MainActivity.kt` | Single entry point — sets `MaterialTheme` and calls the composable |
 
 ---
 
-## ⚙️ Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- ✅ Any modern web browser (Chrome 90+, Firefox 88+, Edge 90+, Safari 14+)
-- ✅ That's it. No Node.js, no npm, no installation needed.
+- ✅ Android Studio **Giraffe** or newer
+- ✅ JDK **17+**
+- ✅ Android device or emulator running **API 24+** (Android 7.0)
+- ✅ Kotlin **1.9.0+**
 
-### Quick Start
+### Installation
 
 **1. Clone the repository**
+```bash
+git clone https://github.com/yourusername/TipCalculator.git
+cd TipCalculator
+```
+
+**2. Open in Android Studio**
+```
+File → Open → Select the cloned TipCalculator folder
+```
+
+**3. Sync Gradle**
+```bash
+./gradlew build
+```
+
+**4. Run the App**
+```bash
+# Via terminal
+./gradlew installDebug
+
+# Or press Shift + F10 in Android Studio
+```
+
+> 💡 No API keys or external configurations needed — just clone and run!
+
+---
+
+## 🧪 Running Tests
 
 ```bash
-git clone https://github.com/atanucsejgec/LinkedIn_Banner_Designer.git
-cd LinkedIn_Banner_Designer
+# ✅ Run all Unit Tests
+./gradlew test
+
+# ✅ Run Instrumented UI Tests (requires connected device or emulator)
+./gradlew connectedAndroidTest
+
+# ✅ Run with verbose output for debugging
+./gradlew test --info
 ```
 
-**2. Open in browser**
-
-```bash
-# Windows
-start index.html
-
-# macOS
-open index.html
-
-# Linux
-xdg-open index.html
-```
-
-Or simply **double-click** `index.html` — it works fully offline!
-
-**3. Design your banner**
-
-```
-Step 1 → Go to Templates tab → Choose a template
-Step 2 → Go to Content tab  → Edit your headline, features, badges
-Step 3 → Go to Media tab    → Upload app screenshots
-Step 4 → Go to Design tab   → Customize colors and typography
-Step 5 → Click ⬇ Download PNG → Get your 1200×627 banner!
-```
-
-### 🔧 Optional: Local Server
-
-For best performance with CORS-safe image loading:
-
-```bash
-# Python 3
-python -m http.server 8080
-
-# Node.js
-npx serve .
-
-# PHP
-php -S localhost:8080
-```
-
-Then open `http://localhost:8080` in your browser.
+| Test Type | Command | Source Location |
+|---|---|---|
+| Unit Tests | `./gradlew test` | `src/test/java/` |
+| Instrumented Tests | `./gradlew connectedAndroidTest` | `src/androidTest/java/` |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-LinkedIn_Banner_Designer/
+📁 com.apk.tipcalculator
 │
-├── 📄 index.html                    # Main HTML — all panels, tabs, controls
+├── 📁 ui/
+│   └── 📁 theme/
+│       ├── 🎨 Color.kt           # Light & Dark color palettes (Material 3)
+│       ├── 📝 Typography.kt      # Font styles and text hierarchy
+│       └── 🎨 Theme.kt           # App theme setup
 │
-├── 📂 css/
-│   ├── 🎨 main.css                  # Core layout, nav, buttons, modal, zoom
-│   │                                 # • CSS custom properties (dark theme)
-│   │                                 # • Main grid layout (panel + canvas)
-│   │                                 # • Button variants, notifications
-│   │                                 # • Canvas area & status bar
-│   │
-│   ├── 🎨 panel.css                 # Left panel UI components
-│   │                                 # • Tabs, form inputs, toggles, ranges
-│   │                                 # • Color pickers, screenshot slots
-│   │                                 # • Feature list, badge list
-│   │                                 # • Template grid & saved design cards
-│   │
-│   └── 🎨 banner.css                # Shared banner canvas styles
-│                                     # • Phone mockup frame & screen
-│                                     # • Glow blobs, sparkle animations
-│                                     # • Tech badges, stat boxes, grid cards
-│                                     # • Code block, terminal, diagonal clips
+├── 📄 MainActivity.kt            # 🚀 App entry point
+│                                 #    ├── MaterialTheme setup
+│                                 #    ├── TipCalculatorScreen() Composable
+│                                 #    ├── calculateTip() — default parameters
+│                                 #    ├── calculateTotal() — single-expression
+│                                 #    ├── toCurrencyString() — extension function
+│                                 #    └── splitBill() — higher-order function
 │
-├── 📂 js/
-│   ├── ⚡ app.js                    # Global state (AppState), boot, keyboard
-│   │                                 # • AppState: features, badges, screenshots
-│   │                                 # • DOMContentLoaded init sequence
-│   │                                 # • Ctrl+S/D/+/-/0 shortcuts
-│   │                                 # • saveDesign / loadSaved / deleteSaved
-│   │                                 # • resetToDefault
-│   │
-│   ├── ⚡ ui.js                     # UI chrome controls
-│   │                                 # • switchTab() — tab navigation
-│   │                                 # • zoom() / fitToScreen() / applyZoom()
-│   │                                 # • showNotification() with auto-dismiss
-│   │                                 # • showPreview() / closeModal()
-│   │                                 # • buildTemplateGrid() — renders cards
-│   │                                 # • applyTemplate() — switches template
-│   │
-│   ├── ⚡ editor.js                 # Content & design editing
-│   │                                 # • collectState() — reads all form inputs
-│   │                                 # • collectColors() — reads color pickers
-│   │                                 # • renderBanner() — triggers template render
-│   │                                 # • updateBanner() / updateDesign()
-│   │                                 # • syncColor() — hex ↔ color picker sync
-│   │                                 # • renderFeatureList() / addFeature()
-│   │                                 # • renderBadgeList() / addBadge()
-│   │                                 # • applyTheme() — 6 preset color themes
-│   │
-│   ├── ⚡ media.js                  # Screenshot slot management
-│   │                                 # • buildScreenshotSlots() — renders 3 slots
-│   │                                 # • updateScreenshotSlots(count)
-│   │                                 # • handleSlotUpload() — FileReader → dataUrl
-│   │                                 # • removeSlot() — clears slot & re-renders
-│   │
-│   ├── ⚡ export.js                 # PNG export pipeline
-│   │                                 # • downloadBanner() — triggers download
-│   │                                 # • showPreview() — preview modal
-│   │                                 # • generateCanvas() — html2canvas wrapper
-│   │                                 # •  scale:2 for 2× resolution output
-│   │
-│   └── ⚡ presets.js                # Quick app swap presets
-│                                     # • APP_PRESETS — 5 app presets defined
-│                                     # • buildPresetButtons() — renders buttons
-│                                     # • loadPreset(key) — fills all form fields
-│
-└── 📂 templates/
-    └── 📐 templates.js              # ← ADD MORE TEMPLATES HERE
-                                      # • TEMPLATES[] array — 12 template objects
-                                      # • phoneMockup() shared helper function
-                                      # • shiftHue() color utility
-                                      # • Each template: id, name, tag,
-                                      #   screenshots count, thumb, render()
+├── 📄 ExampleUnitTest.kt         # 🧪 Local unit test verifications
+└── 📄 ExampleInstrumentedTest.kt # 🤖 Instrumented UI tests
 ```
 
 ---
@@ -626,143 +530,118 @@ LinkedIn_Banner_Designer/
 ```mermaid
 graph LR
     subgraph DONE["✅ Completed"]
-        A[21+ Unique Templates]
-        B[Multi-Screenshot Support]
-        C[Live Content Editing]
-        D[Color & Typography Controls]
-        E[Phone Mockup with Tilt/Glow]
-        F[PNG Export at 1200×627]
-        G[Quick App Swap Presets]
-        H[Save & Load Designs]
-        I[Zoom & Fit Controls]
-        J[Keyboard Shortcuts]
-        K[Modular File Architecture]
-        L[Template Extensibility System]
+        A[Jetpack Compose UI]
+        B[Tip Calculation Logic]
+        C[Round Up Toggle]
+        D[Bill Splitter]
+        E[Material 3 Theming]
+        F[Tip Slider 0-30%]
+        G[Extension Functions]
+        H[Higher-Order Functions]
+    end
+
+    subgraph WIP["🔄 In Progress"]
+        I[Accessibility — TalkBack]
+        J[UI Test Coverage]
     end
 
     subgraph PLAN["📋 Planned"]
-        M[More Template Packs]
-        N[Custom Font Picker]
-        O[Drag Elements on Canvas]
-        P[QR Code Generator]
-        Q[LinkedIn Auto-Post API]
-        R[PWA Offline Support]
+        K[Dark / Light Mode Toggle]
+        L[Tip History Log]
+        M[Custom Tip % Input]
+        N[Share Receipt as Image]
+        O[Home Screen Widget]
+        P[Play Store Release]
     end
 
-    DONE --> PLAN
+    DONE --> WIP --> PLAN
 ```
 
 | Status | Feature |
 |---|---|
-| ✅ Done | 21+ unique templates with different layouts |
-| ✅ Done | Multi-screenshot mockups (1 / 2 / 3 phones) |
-| ✅ Done | Live banner preview with instant re-render |
-| ✅ Done | Full color customization (gradient + accents) |
-| ✅ Done | Typography size controls (headline/subtitle/features) |
-| ✅ Done | Phone tilt, size, and glow controls |
-| ✅ Done | Feature points add / edit / remove |
-| ✅ Done | Tech badges with custom colors |
-| ✅ Done | Layout element toggles (bar, footer, circles, sparkles) |
-| ✅ Done | Quick app swap presets (5 app types) |
-| ✅ Done | Save / Load / Delete designs (session) |
-| ✅ Done | Duplicate design |
-| ✅ Done | Reset to defaults |
-| ✅ Done | PNG export at 1200×627 (2× resolution) |
-| ✅ Done | Preview modal before download |
-| ✅ Done | Zoom controls (15%–100%) + Fit to screen |
-| ✅ Done | Keyboard shortcuts (Ctrl+S/D/+/-/0) |
-| ✅ Done | Modular file structure (7 JS + 3 CSS files) |
-| ✅ Done | Extensible template system (add via push) |
-| 📋 Planned | Additional template packs (5+ new styles) |
-| 📋 Planned | Custom Google Fonts picker |
-| 📋 Planned | Drag-to-reposition elements on canvas |
-| 📋 Planned | QR code generator for GitHub/Play Store links |
-| 📋 Planned | Export to JPG with quality control |
-| 💡 Idea | PWA support for offline use |
-| 💡 Idea | LinkedIn direct post integration |
-| 💡 Idea | Browser extension for one-click banner generation |
+| ✅ Done | Jetpack Compose declarative UI |
+| ✅ Done | Tip calculation with default parameters |
+| ✅ Done | Round up tip toggle (Switch) |
+| ✅ Done | Bill split among N people |
+| ✅ Done | Material 3 theming |
+| ✅ Done | Tip slider (0% – 30%) |
+| ✅ Done | Extension function — `toCurrencyString()` |
+| ✅ Done | Higher-order function — `splitBill()` |
+| 🔄 In Progress | Enhanced accessibility — TalkBack support |
+| 🔄 In Progress | Complete UI test coverage |
+| 📋 Planned | Dark / Light mode manual toggle |
+| 📋 Planned | Tip calculation history log |
+| 📋 Planned | Custom tip percentage text input |
+| 📋 Planned | Share receipt as a card image |
+| 💡 Idea | Home screen widget |
+| 💡 Idea | Google Play Store release |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome — especially new templates! 🚀
+Contributions are **always welcome**! 🌟
 
 ```mermaid
 gitGraph
-   commit id: "Initial Commit"
-   branch feature/NewTemplate
-   checkout feature/NewTemplate
-   commit id: "Add new template"
-   commit id: "Test all screenshot counts"
-   checkout main
-   merge feature/NewTemplate id: "Merge PR ✅"
-   commit id: "Release"
+    commit id: "Initial Commit"
+    branch feature/NewFeature
+    checkout feature/NewFeature
+    commit id: "Add feature"
+    commit id: "Write tests"
+    checkout main
+    merge feature/NewFeature id: "Merge PR ✅"
+    commit id: "Release 🚀"
 ```
 
-**1. Fork** the project
+**Steps to Contribute:**
 
-**2. Create** your feature branch
-```bash
-git checkout -b feature/NewTemplate
-```
+1. **Fork** the project
+2. **Create** your feature branch
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **Commit** your changes using Conventional Commits
+   ```bash
+   git commit -m "feat: add tip history log"
+   ```
+4. **Push** to your branch
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **Open** a Pull Request 🎉
 
-**3. Add your template** to `templates/templates.js`
-```javascript
-TEMPLATES.push({
-  id: 'my-new-template',
-  name: 'My New Template',
-  tag: '1 Screenshot',
-  screenshots: 1,
-  thumb: { bg: 'linear-gradient(...)', emoji: '🎨', label: 'New Style' },
-  render(d) {
-    return `<!-- your HTML here using d.state, d.colors, phoneMockup() -->`;
-  }
-});
-```
+### 📋 Commit Convention
 
-**4. Commit** your changes
-```bash
-git commit -m 'feat: Add MyNewTemplate with diagonal layout'
-```
-
-**5. Push** and open a Pull Request 🎉
-```bash
-git push origin feature/NewTemplate
-```
+| Prefix | Purpose | Example |
+|---|---|---|
+| `feat:` | New feature | `feat: add custom tip input` |
+| `fix:` | Bug fix | `fix: incorrect split on decimal amounts` |
+| `refactor:` | Code refactor | `refactor: extract tip logic to ViewModel` |
+| `test:` | Add/update tests | `test: add unit test for calculateTip` |
+| `docs:` | Documentation | `docs: update README key concepts` |
+| `chore:` | Config/build changes | `chore: update gradle version` |
+| `style:` | UI tweaks | `style: update button corner radius` |
 
 ### 📋 Contribution Guidelines
 
-- Keep it **vanilla** — no frameworks, no build tools, no npm packages
-- All templates go in **`templates/templates.js`** only
-- Test your template with **0, 1, 2, and 3 uploaded screenshots**
-- Test across **Chrome, Firefox, and Edge** at minimum
-- Use **conventional commits** (`feat:`, `fix:`, `docs:`, `refactor:`)
-- Ensure your template renders correctly at **zoom levels 20%–100%**
-- Check your template **exports cleanly** as PNG via html2canvas
-
----
-
-## 👥 Contributors
-
-<div align="center">
-
-[![Contributors](https://contrib.rocks/image?repo=atanucsejgec/LinkedIn_Banner_Designer)](https://github.com/atanucsejgec/LinkedIn_Banner_Designer/graphs/contributors)
-
-*Made with [contrib.rocks](https://contrib.rocks)*
-
-</div>
+- Follow **Kotlin coding conventions** throughout
+- Write **unit tests** for any new logic added
+- Keep Composables **small, focused and reusable**
+- Follow **Material 3** guidelines for UI changes
+- Update **README** for any structural or feature changes
+- Use **conventional commits** for all commit messages
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full details.
 
 ```
 MIT License
 
-Copyright (c) 2025 Atanu Biswas
+Copyright (c) 2026 Atanu Biswas
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -784,11 +663,9 @@ all copies or substantial portions of the Software.
 **Atanu Biswas**
 
 [![GitHub](https://img.shields.io/badge/GitHub-atanucsejgec-181717?style=for-the-badge&logo=github)](https://github.com/atanucsejgec)
-[![Project](https://img.shields.io/badge/Project-LinkedIn_Banner_Designer-6CF7FF?style=for-the-badge&logo=linkedin)](https://github.com/atanucsejgec/LinkedIn_Banner_Designer)
+[![Project](https://img.shields.io/badge/Project-TipCalculator-03DAC5?style=for-the-badge&logo=android)](https://github.com/atanucsejgec/Tip_Calculator)
 
-📌 **Repository:** [https://github.com/atanucsejgec/LinkedIn_Banner_Designer](https://github.com/atanucsejgec/LinkedIn_Banner_Designer)
-
-🌐 **Live Demo:** [https://atanucsejgec.github.io/LinkedIn_Banner_Designer/](https://atanucsejgec.github.io/LinkedIn_Banner_Designer/)
+🌟 **Project Link:** [https://github.com/yourusername/TipCalculator](https://github.com/atanucsejgec/Tip_Calculator)
 
 </div>
 
@@ -796,11 +673,7 @@ all copies or substantial portions of the Software.
 
 <div align="center">
 
-### ⭐ If this tool helps you create better LinkedIn posts, please give it a star! ⭐
-
-<br/>
-
-> 🎨 **Design Better. Post Smarter. Grow Faster.**
+### ⭐ If Tip Calculator helped you learn Kotlin, please drop a Star — it really means a lot! ⭐
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
