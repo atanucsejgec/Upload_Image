@@ -100,7 +100,7 @@ It is built as a **hands-on Kotlin learning project** demonstrating:
   </tr>
   <tr>
     <td>
-      <img width="300" alt="Calculator Screen" src="[screenshots/screen1.png](https://github.com/user-attachments/assets/36f3acd0-5d6c-42d8-a40e-b43f62a8fbf6)"/>
+      <img width="300" alt="Calculator Screen" src="https://github.com/user-attachments/assets/36f3acd0-5d6c-42d8-a40e-b43f62a8fbf6"/>
     </td>
     <td>
       <img width="300" alt="Result View" src="https://github.com/user-attachments/assets/59fc4dd6-198f-46e7-9710-0a8b35bbcb76"/>
