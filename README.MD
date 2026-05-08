@@ -1,6 +1,4 @@
-# README.md for Student Grade Tracker
 
-```markdown
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,18&height=220&section=header&text=📊%20Student%20Grade%20Tracker&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Track%20Grades%20%7C%20Analyze%20Performance%20%7C%20Stay%20Informed&descAlignY=62&descColor=fff" />
@@ -877,4 +875,4 @@ all copies or substantial portions of the Software.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,18&height=120&section=footer"/>
 
 </div>
-```
+
