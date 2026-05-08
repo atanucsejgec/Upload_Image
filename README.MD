@@ -14,9 +14,9 @@
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
 [![Material 3](https://img.shields.io/badge/Material%203-Design-757575?style=for-the-badge&logo=materialdesign&logoColor=white)](https://m3.material.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/atanucsejgec/StudentGradeTracker?style=for-the-badge&color=yellow)](https://github.com/atanucsejgec/StudentGradeTracker/stargazers)
-[![Issues](https://img.shields.io/github/issues/atanucsejgec/StudentGradeTracker?style=for-the-badge&color=red)](https://github.com/atanucsejgec/StudentGradeTracker/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/atanucsejgec/StudentGradeTracker?style=for-the-badge&color=brightgreen)](https://github.com/atanucsejgec/StudentGradeTracker/commits)
+[![Stars](https://img.shields.io/github/stars/atanucsejgec/Student_Grade_Tracker?style=for-the-badge&color=yellow)](https://github.com/atanucsejgec/Student_Grade_Tracker/stargazers)
+[![Issues](https://img.shields.io/github/issues/atanucsejgec/Student_Grade_Tracker?style=for-the-badge&color=red)](https://github.com/atanucsejgec/Student_Grade_Tracker/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/atanucsejgec/Student_Grade_Tracker?style=for-the-badge&color=brightgreen)](https://github.com/atanucsejgec/Student_Grade_Tracker/commits)
 
 <br/>
 
@@ -85,7 +85,7 @@ This project is a **showcase of intermediate Kotlin & Android development** usin
 
 <div align="center">
 
-[![Download APK](https://img.shields.io/badge/⬇️%20Download%20APK-Latest%20Release-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/atanucsejgec/StudentGradeTracker/releases)
+[![Download APK](https://img.shields.io/badge/⬇️%20Download%20APK-Latest%20Release-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://drive.google.com/file/d/1DC0QyFrvIl_xeNmTTgYe8Y5scwNW-3Tq/view?usp=sharing)
 [![Play Store](https://img.shields.io/badge/🛒%20Play%20Store-Coming%20Soon-FFCA28?style=for-the-badge&logo=googleplay&logoColor=black)](#)
 
 </div>
@@ -105,10 +105,10 @@ This project is a **showcase of intermediate Kotlin & Android development** usin
   </tr>
   <tr>
     <td>
-      <img width="300" alt="Grade List" src="screenshots/screen1.png"/>
+      <img width="300" alt="Grade List" src="https://github.com/user-attachments/assets/259db534-73ab-489a-b779-eee28301c6cb"/>
     </td>
     <td>
-      <img width="300" alt="Filter View" src="screenshots/screen2.png"/>
+      <img width="300" alt="Filter View" src="https://github.com/user-attachments/assets/d6e045dc-a864-4525-8e40-fc482ba7b87f"/>
     </td>
   </tr>
 </table>
@@ -625,7 +625,7 @@ sequenceDiagram
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/atanucsejgec/StudentGradeTracker.git
+git clone https://github.com/atanucsejgec/Student_Grade_Tracker.git
 cd StudentGradeTracker
 ```
 
@@ -823,7 +823,7 @@ gitGraph
 
 <div align="center">
 
-[![Contributors](https://contrib.rocks/image?repo=atanucsejgec/StudentGradeTracker)](https://github.com/atanucsejgec/StudentGradeTracker/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=atanucsejgec/Student_Grade_Tracker)](https://github.com/atanucsejgec/Student_Grade_Tracker/graphs/contributors)
 
 *Made with [contrib.rocks](https://contrib.rocks)*
 
@@ -860,9 +860,9 @@ all copies or substantial portions of the Software.
 **Atanu Biswas**
 
 [![GitHub](https://img.shields.io/badge/GitHub-atanucsejgec-181717?style=for-the-badge&logo=github)](https://github.com/atanucsejgec)
-[![Project](https://img.shields.io/badge/Project-StudentGradeTracker-79C6FF?style=for-the-badge&logo=android)](https://github.com/atanucsejgec/StudentGradeTracker)
+[![Project](https://img.shields.io/badge/Project-StudentGradeTracker-79C6FF?style=for-the-badge&logo=android)](https://github.com/atanucsejgec/Student_Grade_Tracker)
 
-📌 **Project Link:** [https://github.com/atanucsejgec/StudentGradeTracker](https://github.com/atanucsejgec/StudentGradeTracker)
+📌 **Project Link:** [https://github.com/atanucsejgec/Student_Grade_Tracker](https://github.com/atanucsejgec/Student_Grade_Tracker)
 
 </div>
 
