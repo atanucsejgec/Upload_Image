@@ -1,33 +1,31 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,18&height=220&section=header&text=📊%20Student%20Grade%20Tracker&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Track%20Grades%20%7C%20Analyze%20Performance%20%7C%20Stay%20Informed&descAlignY=62&descColor=fff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=AutoPilot&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Record%20·%20Replay%20·%20Automate%20—%20Any%20Application&descAlignY=62&descColor=fff" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=79C6FF&center=true&vCenter=true&width=700&lines=📊+Track+Student+Grades+Across+Subjects;🔬+Filter+%7C+Sort+%7C+Analyze+Performance;📐+Built+with+Jetpack+Compose+%26+Material+3;✨+Kotlin+Collections+%7C+Enum+%7C+Data+Class;🎓+Minimal+%7C+Clean+%7C+Modern+Android+App)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6CF7FF&center=true&vCenter=true&width=700&lines=🖱️+Record+Mouse+%26+Keyboard+Actions;⌨️+Replay+with+Precise+Timing;🔁+Loop+Automation+with+Shuffle+%26+Jitter;📸+Screenshot+%26+Template+Matching;🔊+Text-to-Speech+Audio+Cues;🖥️+Works+with+Any+Desktop+Application)](https://git.io/typing-svg)
 
 <br/>
 
-[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
-[![Material 3](https://img.shields.io/badge/Material%203-Design-757575?style=for-the-badge&logo=materialdesign&logoColor=white)](https://m3.material.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/atanucsejgec/Student_Grade_Tracker?style=for-the-badge&color=yellow)](https://github.com/atanucsejgec/Student_Grade_Tracker/stargazers)
-[![Issues](https://img.shields.io/github/issues/atanucsejgec/Student_Grade_Tracker?style=for-the-badge&color=red)](https://github.com/atanucsejgec/Student_Grade_Tracker/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/atanucsejgec/Student_Grade_Tracker?style=for-the-badge&color=brightgreen)](https://github.com/atanucsejgec/Student_Grade_Tracker/commits)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![pyautogui](https://img.shields.io/badge/pyautogui-0.9.54+-green?style=for-the-badge)](https://pyautogui.readthedocs.io/)
+[![pynput](https://img.shields.io/badge/pynput-1.7.6+-orange?style=for-the-badge)](https://pynput.readthedocs.io/)
+[![License](https://img.shields.io/badge/License-Personal%20%26%20Educational-blue?style=for-the-badge)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/atanucsejgec/Automation_Bot?style=for-the-badge&color=yellow)](https://github.com/atanucsejgec/Automation_Bot/stargazers)
+[![Issues](https://img.shields.io/github/issues/atanucsejgec/Automation_Bot?style=for-the-badge&color=red)](https://github.com/atanucsejgec/Automation_Bot/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/atanucsejgec/Automation_Bot?style=for-the-badge&color=green)](https://github.com/atanucsejgec/Automation_Bot/commits)
 
 <br/>
 
-> 📊 **Student Grade Tracker** is a beautifully crafted Android app that lets you
-> add, filter, and analyze student grades across multiple subjects — built with
-> **Jetpack Compose**, **Material 3**, and core modern Kotlin concepts like
-> **enum classes**, **data classes**, and **collection operations**.
+> 🤖 **AutoPilot** is a powerful desktop automation suite that records your mouse and keyboard actions, then replays them with precise timing. It works with **any** application — browsers, games, productivity tools, or any software running on your Windows desktop.
 
 <br/>
 
-[📲 Download App](#-download) • [🚀 Getting Started](#️-getting-started) • [✨ Features](#-features) • [📚 Key Concepts](#-key-concepts-learned) • [🏗️ Architecture](#️-architecture) • [🤝 Contribute](#-contributing)
+[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🏗️ Architecture](#️-architecture) • [⚙️ Installation](#️-installation) • [📖 Usage Guide](#-usage-guide) • [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -36,84 +34,70 @@
 ## 📖 Table of Contents
 
 - [📌 About](#-about)
-- [📲 Download](#-download)
-- [📸 Screenshots](#-screenshots)
 - [✨ Features](#-features)
-- [📚 Key Concepts Learned](#-key-concepts-learned)
-- [🛠️ Tech Stack](#️-tech-stack)
+- [🖥️ Platform Support](#️-platform-support)
+- [📦 Requirements](#-requirements)
+- [⚙️ Installation](#️-installation)
+- [🚀 Quick Start](#-quick-start)
+- [📖 Usage Guide](#-usage-guide)
+- [🔧 Configuration Reference](#-configuration-reference)
+- [⌨️ Hotkeys](#️-hotkeys)
 - [🏗️ Architecture](#️-architecture)
-- [⚙️ Getting Started](#️-getting-started)
-- [🧪 Running Tests](#-running-tests)
-- [📦 Project Structure](#-project-structure)
-- [🗺️ Roadmap](#️-roadmap)
+- [⚠️ Known Limitations](#️-known-limitations)
+- [🩺 Troubleshooting](#-troubleshooting)
 - [🤝 Contributing](#-contributing)
-- [👥 Contributors](#-contributors)
 - [📄 License](#-license)
-- [📬 Contact](#-contact)
 
 ---
 
 ## 📌 About
 
-**Student Grade Tracker** is a clean and feature-rich Android app that lets teachers
-or students **add**, **filter**, and **analyze** grades across subjects like Math,
-Science, English, History, and Art. It provides real-time subject averages, a
-top-performer highlight, and a passing filter — all powered by Kotlin's expressive
-collection APIs.
+**AutoPilot** is a desktop automation tool built for Windows that captures every mouse click, movement, scroll, and keypress — then replays them with exact timing. Whether you want to automate repetitive browser tasks, grind in a game, or test a desktop application, AutoPilot handles it all with a clean, professional CLI interface.
 
-This project is a **showcase of intermediate Kotlin & Android development** using:
-
-- 🎨 **Jetpack Compose** for declarative, XML-free UI
-- 💡 **Compose State APIs** (`remember`, `mutableStateOf`, `mutableStateListOf`) for reactive list updates
-- 🗂️ **Kotlin Enum & Data Classes** for clean, structured data modeling
-- 🔢 **Kotlin Collection Operations** — `filter`, `map`, `groupBy`, `sortedByDescending`, `maxByOrNull`
-- 🏛️ **Single Activity Architecture** with a focused, minimal codebase
-
-### 🎯 Who Is This For?
-
-| Audience | Benefit |
-|---|---|
-| 👶 Android Beginners | Clean reference for Compose list state with `mutableStateListOf` |
-| 📚 Kotlin Learners | Hands-on use of `enum`, `data class`, and collection operations |
-| 🎨 UI/UX Enthusiasts | Modern Material 3 cards, chips, and dynamic color feedback |
-| 🏫 Educators / Students | A practical grade management tool for real use |
-| 🚀 Compose Explorers | See `LazyColumn`, `FilterChip`, `Switch`, and `LaunchedEffect` in action |
-
----
-
-## 📲 Download
-
-<div align="center">
-
-[![Download APK](https://img.shields.io/badge/⬇️%20Download%20APK-Latest%20Release-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://drive.google.com/file/d/1DC0QyFrvIl_xeNmTTgYe8Y5scwNW-3Tq/view?usp=sharing)
-[![Play Store](https://img.shields.io/badge/🛒%20Play%20Store-Coming%20Soon-FFCA28?style=for-the-badge&logo=googleplay&logoColor=black)](#)
-
-</div>
-
----
-
-## 📸 Screenshots
-
-> 💡 A clean, card-based UI built entirely with Jetpack Compose and Material 3.
-
-<div align="center">
+### 🎯 Why AutoPilot?
 
 <table>
   <tr>
-    <td align="center"><b>Grade List View</b></td>
-    <td align="center"><b>Filter & Stats View</b></td>
+    <td align="center">🎯</td>
+    <td><b>Universal Compatibility</b></td>
+    <td>Works with <i>any</i> application running on your desktop — browsers, games, productivity tools, IDEs, anything.</td>
   </tr>
   <tr>
-    <td>
-      <img width="300" alt="Grade List" src="https://github.com/user-attachments/assets/259db534-73ab-489a-b779-eee28301c6cb"/>
-    </td>
-    <td>
-      <img width="300" alt="Filter View" src="https://github.com/user-attachments/assets/d6e045dc-a864-4525-8e40-fc482ba7b87f"/>
-    </td>
+    <td align="center">⏱️</td>
+    <td><b>Precise Timing</b></td>
+    <td>Replays actions with microsecond-accurate timing using <code>time.perf_counter()</code> — not just approximate delays.</td>
+  </tr>
+  <tr>
+    <td align="center">🔁</td>
+    <td><b>Smart Loop Automation</b></td>
+    <td>Run recordings in a loop with configurable count, delay, and ±5% jitter for anti-detection shuffle mode.</td>
+  </tr>
+  <tr>
+    <td align="center">🖱️</td>
+    <td><b>Raw Scroll Precision</b></td>
+    <td>Captures and replays scroll with raw Win32 WHEEL_DELTA values — not lossy normalized units.</td>
+  </tr>
+  <tr>
+    <td align="center">🔊</td>
+    <td><b>Audio Feedback</b></td>
+    <td>Text-to-speech announcements for recording start/stop and loop events so you never miss a state change.</td>
+  </tr>
+  <tr>
+    <td align="center">🛑</td>
+    <td><b>Emergency Abort</b></td>
+    <td>Press <b>F8</b> at any time to instantly stop replay — you're always in control.</td>
+  </tr>
+  <tr>
+    <td align="center">📸</td>
+    <td><b>Visual Detection</b></td>
+    <td>OpenCV-powered template matching finds buttons and UI elements on screen with configurable confidence thresholds.</td>
+  </tr>
+  <tr>
+    <td align="center">🖥️</td>
+    <td><b>Clean CLI Interface</b></td>
+    <td>Professional boxed-art terminal interface with progress indicators — no GUI bloat, just speed.</td>
   </tr>
 </table>
-
-</div>
 
 ---
 
@@ -121,647 +105,617 @@ This project is a **showcase of intermediate Kotlin & Android development** usin
 
 <table>
   <tr>
-    <td>🎨 <b>Modern Compose UI</b></td>
-    <td>Built entirely with <b>Jetpack Compose</b> and <b>Material 3</b> — no XML layouts, pure declarative UI</td>
+    <td>🖱️ <b>Action Recording</b></td>
+    <td>Captures mouse clicks, movement, scrolling, and full keyboard input including modifiers (Ctrl, Shift, Alt) and key combinations</td>
   </tr>
   <tr>
-    <td>📐 <b>Multi-Subject Tracking</b></td>
-    <td>Track grades across <b>Math, Science, English, History, and Art</b> with emoji-coded subject chips</td>
+    <td>⏱️ <b>Precise Replay</b></td>
+    <td>Replays actions with exact timing relative to the original recording using <code>time.perf_counter()</code></td>
   </tr>
   <tr>
-    <td>➕ <b>Add Students Dynamically</b></td>
-    <td>Enter a student name and marks, select a subject, and add them to the live list instantly</td>
+    <td>🔁 <b>Loop Automation</b></td>
+    <td>Run recordings in a loop with configurable count and configurable delay between loops</td>
   </tr>
   <tr>
-    <td>🔢 <b>Reactive List with mutableStateListOf</b></td>
-    <td>Uses Compose-aware <code>mutableStateListOf</code> to automatically re-render the list on every add</td>
+    <td>🎲 <b>Shuffle Replay</b></td>
+    <td>Randomly pick from multiple recordings each loop with ±5% timing jitter for anti-detection variation</td>
   </tr>
   <tr>
-    <td>📊 <b>Live Statistics</b></td>
-    <td>Real-time <b>class average</b>, <b>top student</b>, and <b>total count</b> computed from the current list</td>
+    <td>⚡ <b>Playback Speed</b></td>
+    <td>Speed up or slow down replay with a multiplier (e.g., 2× speed, 0.5× speed)</td>
   </tr>
   <tr>
-    <td>🔬 <b>Subject Averages</b></td>
-    <td>Automatically groups students by subject using <code>groupBy</code> and displays per-subject average grades</td>
+    <td>🛑 <b>Abort Hotkey</b></td>
+    <td>Emergency stop during replay with a single key press (default: <b>F8</b>)</td>
   </tr>
   <tr>
-    <td>✅ <b>Passing Filter</b></td>
-    <td>Toggle a <b>Switch</b> to instantly show only students who are passing (grade ≥ 60)</td>
+    <td>🔊 <b>Sound Announcements</b></td>
+    <td>Text-to-speech audio cues for recording start/stop and loop start/end events</td>
   </tr>
   <tr>
-    <td>🔴🟢 <b>Color-Coded Results</b></td>
-    <td>Passing students shown in <b>Green</b>, failing students in <b>Red</b> — at a glance performance view</td>
+    <td>📜 <b>Scroll Shortcuts</b></td>
+    <td>Ctrl+Up / Ctrl+Down to manually insert scroll events during recording — workaround for touchpad users</td>
   </tr>
   <tr>
-    <td>🔡 <b>Letter Grade Conversion</b></td>
-    <td>Automatically computes <b>A / B / C / D / F</b> letter grades from numeric scores via a computed property</td>
+    <td>📸 <b>Screenshot Capture</b></td>
+    <td>Save screenshots for visual reference or use as template matching targets</td>
   </tr>
   <tr>
-    <td>🛡️ <b>Safe Input Handling</b></td>
-    <td>Uses <code>toDoubleOrNull()</code> to safely parse grade input — no crashes on invalid or empty text</td>
+    <td>🔍 <b>Template Matching</b></td>
+    <td>OpenCV-powered UI element detection — find buttons, icons, or any visual element on screen with configurable confidence</td>
   </tr>
   <tr>
-    <td>📦 <b>Pre-Populated Sample Data</b></td>
-    <td>App launches with 6 sample students via <code>LaunchedEffect</code> for immediate visual feedback</td>
+    <td>🖥️ <b>Professional CLI</b></td>
+    <td>Clean, boxed-art terminal interface with progress indicators and structured menus</td>
   </tr>
   <tr>
-    <td>🏛️ <b>Single Activity Design</b></td>
-    <td>Clean architecture with a single <code>MainActivity.kt</code> as the only entry point</td>
+    <td>💾 <b>JSON Recording Format</b></td>
+    <td>Recordings saved as human-readable JSON files with full metadata — easy to inspect, edit, or version-control</td>
   </tr>
 </table>
 
 ---
 
-## 📚 Key Concepts Learned
+## 🖥️ Platform Support
 
-> 💡 This project was built as a **hands-on learning experience** with Kotlin & Jetpack Compose.
-> Here are the core concepts explored and applied through this app:
+> ⚠️ **AutoPilot is currently Windows-only.**
+
+| Component | Windows | macOS | Linux |
+|---|:---:|:---:|:---:|
+| Recording (mouse/keyboard) | ✅ | ❌ | ❌ |
+| Replay (pyautogui) | ✅ | ⚠️ Partial | ⚠️ Partial |
+| Sound Announcements | ✅ | ❌ | ❌ |
+| Scroll Replay (raw delta) | ✅ | ❌ | ❌ |
+| VK Code Keyboard Replay | ✅ | ❌ | ❌ |
+| Window Focus/Management | ✅ | ❌ | ❌ |
+| Template Matching (OpenCV) | ✅ | ✅ | ✅ |
+| Screenshot Capture | ✅ | ✅ | ✅ |
+
+### 🔍 Why Windows-Only?
+
+The tool relies heavily on Windows-specific APIs:
+
+| API Used | Purpose | Why It's Windows-Specific |
+|---|---|---|
+| `ctypes.windll.user32` | Window management, raw scroll replay, VK code keyboard input | Win32 API — no macOS/Linux equivalent |
+| `winsound` | Play WAV audio announcements | Windows-only stdlib module |
+| `PowerShell + System.Speech` | Generate text-to-speech WAV files | Windows .NET Framework only |
+| `subprocess.CREATE_NO_WINDOW` | Silent PowerShell execution | Windows process creation flag |
+| `pynput` (WH_MOUSE_LL hook) | Capture mouse/keyboard at OS level | Uses Windows low-level hooks |
+
+**To port to macOS/Linux**, you would need to replace:
+
+1. `winsound` → cross-platform audio library (e.g., `playsound`, `pygame.mixer`)
+2. `System.Speech` TTS → `pyttsx3` or `gTTS`
+3. `ctypes.windll.user32` calls → platform-specific equivalents
+4. `SendInput` / `mouse_event` → `pyautogui` equivalents (losing some precision)
+5. Remove `subprocess.CREATE_NO_WINDOW` flag
 
 ---
 
-### 🗂️ 1. Enum Class — Predefined Set of Constants
+## 📦 Requirements
 
-```kotlin
-enum class Subject(val emoji: String) {
-    MATH("📐"),
-    SCIENCE("🔬"),
-    ENGLISH("📚"),
-    HISTORY("🏛️"),
-    ART("🎨")
+- **OS**: Windows 10 / 11 (64-bit)
+- **Python**: 3.10 or higher
+
+| Package | Version | Purpose |
+|---|---|---|
+| `pyautogui` | ≥ 0.9.54 | Mouse/keyboard replay automation |
+| `pynput` | ≥ 1.7.6 | Low-level input capture (recording) |
+| `opencv-python` | ≥ 4.8.0 | Template matching & screenshot processing |
+| `numpy` | ≥ 1.24.0 | Array operations for OpenCV |
+
+---
+
+## ⚙️ Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/atanucsejgec/Automation_Bot.git
+cd Automation_Bot
+```
+
+**2. Install Python dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**3. Run the application**
+
+```bash
+python main.py
+```
+
+> **💡 Note:** On first run with sound enabled, AutoPilot will generate WAV audio files using Windows text-to-speech. This is a one-time setup that takes a few seconds.
+
+---
+
+## 🚀 Quick Start
+
+```
+1. Run:       python main.py
+2. Select:    [1] New Recording
+3. Name it:   my_workflow  (or press Enter for auto-name)
+4. Wait:      10-second countdown — switch to your target app
+5. Perform:   Your mouse/keyboard actions
+6. Stop:      Press F7
+7. Replay:    Select [2] → choose recording → set loops → go!
+8. Emergency: Press F8 to abort replay at any time
+```
+
+---
+
+## 📖 Usage Guide
+
+### 1. 🔴 Recording
+
+```
+Select [1] from the main menu
+```
+
+1. Enter a name for your recording (or press Enter for an auto-generated timestamp name)
+2. A **10-second countdown** begins — switch to your target application
+3. A sound plays: **"Recording started"**
+4. Perform your actions — every mouse click, movement, scroll, and keypress is captured
+5. Press **F7** to stop — a sound plays: **"Recording stopped"**
+6. The recording is saved as a JSON file in the `recordings/` directory
+
+**What gets recorded:**
+
+| Action | Captured Data |
+|---|---|
+| Mouse click | Position (x, y), button (left/right/middle), press/release |
+| Mouse move | Position (x, y), throttled to ~50ms intervals |
+| Mouse scroll | Position (x, y), scroll direction and amount (raw WHEEL_DELTA) |
+| Key press | Key name or VK code, press/release events separately |
+| Modifier keys | Ctrl, Shift, Alt, Win — as individual key_down/key_up events |
+| Key combos | Ctrl+A, Ctrl+C, etc. — recorded as modifier down → key down → key up → modifier up |
+
+> **📱 Touchpad Users:** Since laptop touchpad two-finger scrolling bypasses Windows hooks, use:
+> - **Ctrl + ↑** — Insert scroll up (3 notches) at cursor position
+> - **Ctrl + ↓** — Insert scroll down (3 notches) at cursor position
+
+---
+
+### 2. ▶️ Replay
+
+```
+Select [2] from the main menu
+```
+
+**Standard Replay:**
+- Pick one recording, set loop count and playback speed
+- Each loop replays the exact same sequence with precise timing
+
+**Shuffle Replay:**
+- Select multiple recordings (comma-separated: `1,3,5`)
+- Each loop randomly picks one recording from the pool
+- Adds ±5% timing jitter to each action for variation
+- Delay between loops is randomized ±30% around the configured value
+
+---
+
+### 3. 📂 Managing Recordings
+
+```
+Select [3] from the main menu
+```
+
+View all saved recordings with full metadata:
+
+| Metadata | Description |
+|---|---|
+| Number of actions | Total captured events |
+| Duration | Total recording length in seconds |
+| File size | Size of the JSON file on disk |
+| Recording date/time | Timestamp of when it was recorded |
+
+You can also **delete** recordings from this menu.
+
+---
+
+### 4. 📸 Screenshot Capture
+
+```
+Select [4] from the main menu
+```
+
+Captures a full screenshot and saves it to the `templates/` directory. Useful for:
+- Creating template images for the `ImageMatcher`
+- Visual documentation of your workflow
+
+---
+
+### 5. ⚙️ Settings
+
+```
+Select [5] from the main menu
+```
+
+Interactively edit any configuration setting. Changes are saved to `config.json` immediately.
+
+---
+
+## 🔧 Configuration Reference
+
+All settings are stored in `config.json`:
+
+```json
+{
+    "loop_count": 5,
+    "delay_between_loops": 10.0,
+    "playback_speed": 1.0,
+    "recording_hotkey_stop": "F7",
+    "abort_hotkey": "F8",
+    "recordings_dir": "recordings",
+    "click_delay_offset": 0.0,
+    "mouse_move_duration": 0.1,
+    "countdown_seconds": 10,
+    "sound_enabled": true,
+    "scroll_shortcut_amount": 3,
+    "confidence_threshold": 0.8
 }
 ```
 
-- An `enum class` defines a **fixed, named set of constants**
-- Each constant can carry **properties** (like `emoji` here)
-- Prevents invalid values — you can only assign one of the declared constants
-- Access all values with `Subject.values()` — used here to generate filter chips
-
-| Enum Constant | emoji Property |
-|---|---|
-| `Subject.MATH` | 📐 |
-| `Subject.SCIENCE` | 🔬 |
-| `Subject.ENGLISH` | 📚 |
-| `Subject.HISTORY` | 🏛️ |
-| `Subject.ART` | 🎨 |
-
-> 💡 Use `enum class` when you have a **closed, known set** of values
-> that represent categories or types.
-
----
-
-### 🧱 2. Data Class — Structured Data with Auto-Generated Utilities
-
-```kotlin
-data class Student(
-    val id: Int,
-    val name: String,
-    val subject: Subject,
-    val grade: Double
-)
-```
-
-- A `data class` **auto-generates** `toString()`, `equals()`, `hashCode()`, and `copy()`
-- Ideal for **model/data holder** objects
-- Supports **destructuring** — unpack properties positionally
-
-```kotlin
-// Destructuring a data class instance
-val (id, name, subject, grade) = student
-```
-
-| Auto-Generated | What It Does |
-|---|---|
-| `toString()` | Prints all properties in a readable format |
-| `equals()` | Compares two instances by their property values |
-| `hashCode()` | Consistent hash based on property values |
-| `copy()` | Creates a new instance with some properties changed |
+| Setting | Type | Default | Description |
+|---|---|---|---|
+| `loop_count` | int | `5` | Default number of replay loops |
+| `delay_between_loops` | float | `10.0` | Seconds to wait between loops |
+| `playback_speed` | float | `1.0` | Replay speed multiplier (2.0 = double speed) |
+| `recording_hotkey_stop` | string | `"F7"` | Key to stop recording |
+| `abort_hotkey` | string | `"F8"` | Key to abort replay |
+| `recordings_dir` | string | `"recordings"` | Directory for saved recordings |
+| `click_delay_offset` | float | `0.0` | Additional delay added to each click (seconds) |
+| `mouse_move_duration` | float | `0.1` | Duration of mouse movement animations (seconds) |
+| `countdown_seconds` | int | `10` | Countdown before recording/replay starts |
+| `sound_enabled` | bool | `true` | Enable/disable text-to-speech announcements |
+| `scroll_shortcut_amount` | int | `3` | Number of scroll notches per Ctrl+Up/Down press |
+| `confidence_threshold` | float | `0.8` | Template matching confidence (0.0–1.0) |
 
 ---
 
-### ⚙️ 3. Computed Properties in Data Class
+## ⌨️ Hotkeys
 
-```kotlin
-val letterGrade: String
-    get() = when {
-        grade >= 90 -> "A"
-        grade >= 80 -> "B"
-        grade >= 70 -> "C"
-        grade >= 60 -> "D"
-        else        -> "F"
-    }
-
-val isPassing: Boolean get() = grade >= 60
-```
-
-- A **computed property** has no backing field — it runs logic every time it's accessed
-- Uses the `get()` syntax to define a custom getter
-- `letterGrade` uses a `when` expression to map numeric grade → letter
-- `isPassing` is a simple boolean check used for filtering and color-coding
-
-| Grade Range | Letter Grade | isPassing |
+| Hotkey | Context | Action |
 |---|---|---|
-| 90 – 100 | A | ✅ true |
-| 80 – 89 | B | ✅ true |
-| 70 – 79 | C | ✅ true |
-| 60 – 69 | D | ✅ true |
-| Below 60 | F | ❌ false |
-
----
-
-### ⚡ 4. Compose State — `remember`, `mutableStateOf`, `mutableStateListOf`
-
-```kotlin
-var nameInput       by remember { mutableStateOf("") }
-var gradeInput      by remember { mutableStateOf("") }
-var selectedSubject by remember { mutableStateOf(Subject.MATH) }
-var filterPassing   by remember { mutableStateOf(false) }
-
-val students = remember { mutableStateListOf<Student>() }
-```
-
-| API | Role |
-|-----|------|
-| `mutableStateOf()` | Reactive single-value state — UI rebuilds when value changes |
-| `mutableStateListOf()` | Reactive list state — UI rebuilds when items are added/removed |
-| `remember {}` | Keeps state alive across recompositions |
-| `by` delegation | Allows direct `nameInput = "..."` instead of `nameInput.value = "..."` |
-
-> 💡 Use `mutableStateListOf` instead of `mutableStateOf(listOf())` when
-> you need Compose to **react to individual list mutations** like `.add()` and `.remove()`.
-
----
-
-### 🔄 5. Kotlin Collection Operations
-
-This app is a practical showcase of Kotlin's powerful collection APIs:
-
-#### 🔍 `filter` — Keep elements that match a condition
-
-```kotlin
-list.filter { it.isPassing }   // Only students with grade ≥ 60
-```
-
-#### 🔃 `sortedByDescending` — Sort from highest to lowest
-
-```kotlin
-.sortedByDescending { it.grade }   // Highest grade first
-```
-
-#### 🗺️ `map` — Transform each element
-
-```kotlin
-students.map { it.grade }.average()   // Extract grades, then average
-```
-
-#### 🗂️ `groupBy` — Group elements by a key
-
-```kotlin
-val gradesBySubject: Map<Subject, List<Student>> =
-    students.groupBy { it.subject }
-```
-
-#### 🏆 `maxByOrNull` — Find element with max value (null-safe)
-
-```kotlin
-val topStudent: Student? = students.maxByOrNull { it.grade }
-```
-
-| Operation | Input | Output |
-|---|---|---|
-| `filter { it.isPassing }` | All students | Only passing students |
-| `sortedByDescending { it.grade }` | Unsorted list | Highest → Lowest |
-| `map { it.grade }.average()` | Student list | Class average (Double) |
-| `groupBy { it.subject }` | Student list | `Map<Subject, List<Student>>` |
-| `maxByOrNull { it.grade }` | Student list | Top student or `null` |
-
----
-
-### ❓ 6. Safe Call Operator `?.` and Elvis Operator `?:`
-
-```kotlin
-// Safe call — only accesses .name if topStudent is not null
-"Top: ${topStudent?.name ?: "N/A"}"
-```
-
-| Operator | Purpose | Example |
-|---|---|---|
-| `?.` | Call property/method only if not null | `topStudent?.name` |
-| `?:` | Provide a fallback if the left side is null | `topStudent?.name ?: "N/A"` |
-
-> 💡 `maxByOrNull` returns `null` on an empty list — the `?.` and `?:` operators
-> handle this gracefully without a null pointer crash.
-
----
-
-### 🔢 7. Safe Input Parsing with `toDoubleOrNull()`
-
-```kotlin
-val grade = gradeInput.toDoubleOrNull()
-if (nameInput.isNotBlank() && grade != null) {
-    students.add(Student(...))
-}
-```
-
-| Input String | `toDoubleOrNull()` Result |
-|---|---|
-| `"95.5"` | `95.5` ✅ |
-| `"72"` | `72.0` ✅ |
-| `"abc"` | `null` ⚠️ |
-| `""` (empty) | `null` ⚠️ |
-
-> 💡 Guard clauses (`isNotBlank()` + `!= null`) prevent invalid data
-> from ever entering the student list.
-
----
-
-### 🗺️ 8. `groupBy` — Iterating Over a Map with Destructuring
-
-```kotlin
-val gradesBySubject: Map<Subject, List<Student>> =
-    students.groupBy { it.subject }
-
-// Iterating with destructuring
-gradesBySubject.forEach { (subject, subjectStudents) ->
-    val avg = subjectStudents.map { it.grade }.average()
-    Text("${subject.emoji} ${subject.name}: ${"%.1f".format(avg)}")
-}
-```
-
-- `groupBy` returns a `Map<Key, List<Value>>`
-- `forEach { (subject, subjectStudents) ->` uses **destructuring** on the `Map.Entry`
-- Combines `map` + `average()` to compute per-subject grade averages
-
----
-
-### 🚀 9. `LaunchedEffect` — Running Side Effects in Compose
-
-```kotlin
-LaunchedEffect(Unit) {
-    students.addAll(
-        listOf(
-            Student(1, "Alice", Subject.MATH, 95.0),
-            Student(2, "Bob", Subject.SCIENCE, 72.0),
-            // ...
-        )
-    )
-}
-```
-
-- `LaunchedEffect(Unit)` runs **once** when the composable first enters composition
-- Used here to pre-populate the student list with sample data
-- `Unit` as the key means it will **never re-run** on recomposition
-
-| Key Value | Effect Behavior |
-|---|---|
-| `Unit` | Runs exactly once on first composition |
-| A state value | Reruns every time that state value changes |
-
----
-
-### 🎨 10. Jetpack Compose UI Concepts Used
-
-```kotlin
-@Composable
-fun GradeTrackerScreen() { ... }
-```
-
-| Composable / API | What It Does |
-|---|---|
-| `@Composable` | Marks a function as a Compose UI building block |
-| `LazyColumn { items(...) }` | Efficiently renders a scrollable list — only visible items are composed |
-| `FilterChip` | Selectable chip — used for subject selection row |
-| `OutlinedTextField` | Material 3 text input with label |
-| `Switch` | Toggle control for the passing filter |
-| `Card` | Material 3 elevated card surface for each student row |
-| `Row / Column` | Horizontal / vertical layout containers |
-| `Arrangement.SpaceBetween` | Pushes children to opposite ends of a `Row` |
-| `Modifier.weight(1f)` | Makes a composable fill remaining space proportionally |
-| `Color.Green / Color.Red` | Dynamic text color based on `isPassing` boolean |
-| `"%.1f".format(avg)` | Formats a Double to 1 decimal place for display |
-
----
-
-### 🔄 11. Recomposition Flow — How It All Works Together
-
-```mermaid
-graph TD
-    A[👤 User Types Name & Grade] --> B[onValueChange fires]
-    B --> C[mutableStateOf updates nameInput / gradeInput]
-    C --> D[TextField recomposes with new value ✅]
-
-    E[🖱️ User Clicks + Button] --> F[onClick lambda executes]
-    F --> G[toDoubleOrNull safely parses gradeInput]
-    G --> H{grade == null OR name blank?}
-    H -- ✅ Yes --> I[Nothing added — inputs stay]
-    H -- ❌ No --> J[students.add - new Student created]
-    J --> K[mutableStateListOf notifies Compose]
-    K --> L[GradeTrackerScreen recomposes]
-    L --> M[displayedStudents recalculated]
-    L --> N[averageGrade recalculated]
-    L --> O[gradesBySubject recalculated]
-    L --> P[topStudent recalculated]
-    M --> Q[LazyColumn re-renders list ✅]
-
-    R[🔘 User Toggles Filter Switch] --> S[filterPassing state changes]
-    S --> T[displayedStudents refiltered]
-    T --> Q
-```
-
----
-
-### 🗂️ Summary — All Concepts at a Glance
-
-| # | Concept | Where Used in Code |
-|---|---------|-------------------|
-| 1 | `enum class` with properties | `Subject` enum with `emoji` property |
-| 2 | `data class` with auto-utilities | `Student` data class |
-| 3 | Computed properties (`get()`) | `letterGrade` and `isPassing` in `Student` |
-| 4 | `remember` + `mutableStateOf` | All input and filter state variables |
-| 5 | `mutableStateListOf` | Reactive student list in `GradeTrackerScreen` |
-| 6 | `filter` collection operation | Passing filter toggle |
-| 7 | `sortedByDescending` | Sorting students by grade descending |
-| 8 | `map` + `average()` | Class-wide and per-subject grade averages |
-| 9 | `groupBy` | Grouping students by `Subject` |
-| 10 | `maxByOrNull` | Finding the top-performing student |
-| 11 | Safe call `?.` and Elvis `?:` | Null-safe top student name display |
-| 12 | `toDoubleOrNull()` | Safe grade input parsing |
-| 13 | Destructuring | `val (id, name, subject, grade) = student` |
-| 14 | `LaunchedEffect(Unit)` | Pre-populating sample student data |
-| 15 | `LazyColumn` + `items()` | Efficient scrollable student list |
-| 16 | `FilterChip` + `Switch` | Subject selector and passing toggle |
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-[![My Skills](https://skillicons.dev/icons?i=kotlin,androidstudio,gradle,git,github&theme=dark)](https://skillicons.dev)
-
-</div>
-
-<br/>
-
-| Category | Technology | Purpose |
-|---|---|---|
-| 🌐 **Language** | Kotlin 1.9+ | Primary programming language |
-| 🎨 **UI Framework** | Jetpack Compose | Declarative modern UI toolkit |
-| 🖌️ **Design System** | Material 3 | Components, theming & dynamic color |
-| 🧠 **State Management** | `remember` + `mutableStateListOf` | Reactive list UI without ViewModel |
-| 🏛️ **Architecture** | Single Activity + Compose | Minimal, focused app structure |
-| 🧪 **Unit Testing** | JUnit 4 | Local business logic tests |
-| 🤖 **UI Testing** | AndroidJUnit4 | Instrumented Compose UI tests |
-| 🔧 **Build System** | Gradle (Kotlin DSL) | Build and dependency automation |
+| **F7** | During recording | Stop recording |
+| **F8** | During replay | Emergency abort — stops replay immediately |
+| **Ctrl + ↑** | During recording | Insert scroll-up event (touchpad workaround) |
+| **Ctrl + ↓** | During recording | Insert scroll-down event (touchpad workaround) |
 
 ---
 
 ## 🏗️ Architecture
 
-Student Grade Tracker follows a **streamlined Compose-first architecture**, keeping
-state and logic co-located with the UI — ideal for a focused utility app.
+```
+Automation_Bot/
+├── 📄 main.py              # CLI entry point — interactive menu system
+├── 📄 recorder.py          # Action recording — captures mouse & keyboard input
+├── 📄 player.py            # Action replay — executes recorded sequences
+├── 📄 image_matcher.py     # Template matching — finds UI elements on screen
+├── 📄 sounds.py            # Audio announcements — TTS generation & playback
+├── 📄 config.json          # User configuration
+├── 📄 requirements.txt     # Python dependencies
+├── 📂 recordings/          # Saved recording JSON files
+├── 📂 templates/           # Screenshot templates for image matching
+└── 📂 sounds_cache/        # Generated TTS WAV files (auto-created)
+```
 
-### 📐 Architecture Diagram
+### 🔄 Application Flow
 
 ```mermaid
 graph TB
-    subgraph UI["🎨 UI Layer (Jetpack Compose)"]
-        MA[MainActivity.kt]
-        GTS[GradeTrackerScreen Composable]
-        FC[FilterChip Row - Subject Selector]
-        TF[OutlinedTextField - Name & Grade Input]
-        SW[Switch - Passing Filter]
-        LC[LazyColumn - Student Card List]
-        ST[Text - Stats Bar]
-        SA[Text - Subject Averages]
+    subgraph UI["🖥️ CLI Interface"]
+        MAIN[main.py — Menu System]
     end
 
-    subgraph State["⚡ State Layer (Compose State APIs)"]
-        NI[remember - nameInput : mutableStateOf]
-        GI[remember - gradeInput : mutableStateOf]
-        SS[remember - selectedSubject : mutableStateOf]
-        FP[remember - filterPassing : mutableStateOf]
-        SL[remember - students : mutableStateListOf]
+    subgraph Core["⚙️ Core Modules"]
+        REC[recorder.py]
+        PLAY[player.py]
+        IMG[image_matcher.py]
+        SND[sounds.py]
     end
 
-    subgraph Logic["🧮 Derived Data (Collection Operations)"]
-        DS[displayedStudents — filter + sortedByDescending]
-        AG[averageGrade — map + average]
-        GS[gradesBySubject — groupBy]
-        TS[topStudent — maxByOrNull]
+    subgraph APIs["🪟 Windows APIs"]
+        PYNPUT[pynput — WH_MOUSE_LL / WH_KEYBOARD_LL]
+        PYAUTOGUI[pyautogui — Replay Engine]
+        WIN32[ctypes.windll.user32 — Raw Input]
+        WINSOUND[winsound — Audio Playback]
+        PS[PowerShell SAPI — TTS Generation]
     end
 
-    subgraph Model["🧱 Data Model (Kotlin Classes)"]
-        EN[Subject enum class]
-        DC[Student data class]
-        CP[letterGrade computed property]
-        IP[isPassing computed property]
+    subgraph Storage["💾 File Storage"]
+        JSON[recordings/*.json]
+        TMPL[templates/*.png]
+        CACHE[sounds_cache/*.wav]
+        CFG[config.json]
     end
 
-    MA --> GTS
-    GTS --> FC & TF & SW & LC & ST & SA
-    FC --> SS
-    TF --> NI & GI
-    SW --> FP
-    SL --> Logic
-    FP --> DS
-    Logic --> LC & ST & SA
-    Model --> SL
+    MAIN --> REC
+    MAIN --> PLAY
+    MAIN --> IMG
+    MAIN --> SND
+    REC --> PYNPUT
+    REC --> JSON
+    PLAY --> PYAUTOGUI
+    PLAY --> WIN32
+    PLAY --> JSON
+    IMG --> TMPL
+    SND --> WINSOUND
+    SND --> PS
+    SND --> CACHE
+    MAIN --> CFG
 ```
 
-### 🔄 State Flow Diagram
+### 🔄 Recording & Replay Pipeline
 
 ```mermaid
 sequenceDiagram
     participant User as 👤 User
-    participant Input as 📝 Name + Grade Fields
-    participant Chip as 🔘 Subject Chip
-    participant State as ⚡ Compose State
-    participant Logic as 🧮 Collection Logic
-    participant UI as 🎨 List + Stats UI
+    participant Recorder as 🔴 recorder.py
+    participant Storage as 💾 recordings/
+    participant Player as ▶️ player.py
+    participant OS as 🪟 Windows API
 
-    User->>Chip: Selects Subject (e.g. SCIENCE)
-    Chip->>State: selectedSubject = Subject.SCIENCE
-
-    User->>Input: Types "Bob" and "72"
-    Input->>State: nameInput = "Bob", gradeInput = "72"
-
-    User->>Input: Clicks + Button
-    Input->>Logic: toDoubleOrNull() → 72.0
-    Logic->>Logic: isNotBlank && grade != null → ✅
-    Logic->>State: students.add(Student(id, "Bob", SCIENCE, 72.0))
-    State->>Logic: Recompute displayedStudents, averageGrade, groupBy, maxByOrNull
-    Logic->>UI: Recomposition triggered
-    UI->>User: 📊 Updated list, stats, and averages displayed ✅
-
-    User->>Input: Toggles "Show passing only" Switch
-    Input->>State: filterPassing = true
-    State->>Logic: displayedStudents = list.filter { it.isPassing }
-    Logic->>UI: LazyColumn recomposes with filtered list
-    UI->>User: ✅ Only passing students shown
+    User->>Recorder: Press Record (Menu [1])
+    Recorder->>Recorder: 10-second countdown
+    Recorder->>OS: Install WH_MOUSE_LL & WH_KEYBOARD_LL hooks
+    loop Capture Actions
+        OS->>Recorder: Mouse / Keyboard event
+        Recorder->>Recorder: Timestamp with perf_counter()
+        Recorder->>Recorder: Throttle moves to ~50ms
+    end
+    User->>Recorder: Press F7 (Stop)
+    Recorder->>Storage: Serialize → JSON file
+    User->>Player: Press Replay (Menu [2])
+    Player->>Storage: Load JSON
+    loop Each Loop
+        loop Each Action
+            Player->>Player: Wait exact time delta
+            Player->>OS: pyautogui / SendInput / mouse_event
+        end
+    end
+    User->>Player: Press F8 (Abort)
+    Player->>Player: Emergency stop
 ```
 
-### 🧱 Layer Responsibilities
+---
 
-| Layer | Component | Responsibility |
+### 📋 Module Details
+
+#### `recorder.py` — Input Capture
+
+**How recording works:**
+1. **pynput** installs Windows low-level hooks (`WH_MOUSE_LL`, `WH_KEYBOARD_LL`)
+2. Mouse clicks, movements, and scrolls are captured via `mouse.Listener`
+3. Keyboard presses/releases are captured via `keyboard.Listener`
+4. All events are timestamped relative to recording start using `time.perf_counter()`
+5. Mouse moves are throttled to ~50ms intervals to avoid flooding
+6. Events are stored in memory, then serialized to JSON on save
+
+**Key translation pipeline:**
+```
+pynput Key object → _key_to_str() → standardized string → JSON
+JSON → _str_to_key() → pyautogui key name → replay
+```
+
+> Example: `Key.ctrl_l` → `"ctrl_l"` → `"ctrlleft"` (pyautogui)
+
+---
+
+#### `player.py` — Action Replay
+
+**How replay works:**
+1. Load the recording JSON file
+2. Start an abort-key listener in a background thread
+3. For each action, wait the exact time delta (adjusted by playback speed)
+4. Execute the action using `pyautogui` (clicks, moves, keys) or Win32 API (scroll, VK codes)
+5. Repeat for the configured number of loops
+
+> **Scroll replay** uses direct Win32 `mouse_event()` API with raw WHEEL_DELTA values for precision.
+> **VK code replay** uses Win32 `SendInput()` for special characters and OEM keys.
+
+---
+
+#### `image_matcher.py` — Visual Detection
+
+Uses OpenCV `matchTemplate()` to find UI elements on screen:
+
+| Method | Description |
+|---|---|
+| `find()` | Single match — returns best match above confidence threshold |
+| `find_all()` | All matches — returns all matches with non-maximum suppression |
+| `wait_for()` | Polls until template appears or timeout |
+| `wait_until_gone()` | Polls until template disappears |
+| `save_screenshot()` | Capture screen for creating templates |
+
+---
+
+#### `sounds.py` — Audio Feedback
+
+1. On first use, generates WAV files from text using Windows SAPI (PowerShell)
+2. Caches WAV files in `sounds_cache/` for instant playback
+3. Plays audio using `winsound.PlaySound()` — async or sync
+4. Four announcements: **"Recording started"**, **"Recording stopped"**, **"Loop started"**, **"Loop ended"**
+
+---
+
+### 📄 Recording File Format
+
+```json
+{
+    "name": "my_workflow",
+    "recorded_at": "2025-05-22T18:30:00",
+    "event_count": 150,
+    "duration_sec": 25.5,
+    "actions": [
+        {
+            "type": "click",
+            "time": 0.0,
+            "x": 500,
+            "y": 300,
+            "button": "left",
+            "pressed": true
+        },
+        {
+            "type": "move",
+            "time": 0.15,
+            "x": 510,
+            "y": 305
+        },
+        {
+            "type": "scroll",
+            "time": 1.2,
+            "x": 500,
+            "y": 300,
+            "dx": 0,
+            "dy": -3,
+            "raw_dx": 0,
+            "raw_dy": -360
+        },
+        {
+            "type": "key_down",
+            "time": 2.0,
+            "key": "ctrl_l"
+        },
+        {
+            "type": "key_down",
+            "time": 2.05,
+            "key": "a"
+        },
+        {
+            "type": "key_up",
+            "time": 2.15,
+            "key": "a"
+        },
+        {
+            "type": "key_up",
+            "time": 2.2,
+            "key": "ctrl_l"
+        }
+    ]
+}
+```
+
+---
+
+## ⚠️ Known Limitations
+
+| Limitation | Details | Workaround |
 |---|---|---|
-| **Model** | `Subject` enum, `Student` data class | Data structure, letter grade, pass/fail logic |
-| **State** | `mutableStateOf`, `mutableStateListOf` | Holds all reactive UI state |
-| **Logic** | Collection operations in composable | Derives display list, averages, groupings |
-| **UI** | `GradeTrackerScreen`, composables | Renders input, cards, chips, stats |
+| **Windows only** | Uses Win32 API extensively | No cross-platform support currently |
+| **Touchpad two-finger scroll** | Windows precision touchpads bypass `WH_MOUSE_LL` hooks — scroll gestures cannot be captured | Use **Ctrl+Up / Ctrl+Down** keyboard shortcuts during recording |
+| **Physical mouse scroll** | Works perfectly | — |
+| **Admin applications** | Cannot interact with elevated (Run as Admin) windows unless AutoPilot itself runs as Admin | Run `python main.py` from an elevated command prompt |
+| **Multi-monitor** | Coordinates are absolute — recordings are tied to the monitor layout used during recording | Re-record if you change monitor setup |
+| **DPI scaling** | Different DPI settings between recording and replay may cause coordinate mismatch | Use the same DPI scaling for both |
+| **pyautogui failsafe** | Moving mouse to screen corner (0,0) triggers pyautogui's failsafe exception | Intentional safety feature — keeps you in control |
 
 ---
 
-## ⚙️ Getting Started
+## 🩺 Troubleshooting
 
-### Prerequisites
+<details>
+<summary><b>❓ "No matching window found"</b></summary>
 
-- ✅ Android Studio **Giraffe** or newer
-- ✅ JDK **17+**
-- ✅ Android device or emulator running **API 24+** (Android 7.0)
-- ✅ Kotlin **1.9.0+**
+The window focus feature looks for a window title. If you're not using a specific target window, playback still works — it replays at absolute screen coordinates.
 
-### Installation
+</details>
 
-**1. Clone the repository**
+<details>
+<summary><b>🖱️ Scroll amount is wrong during replay</b></summary>
 
-```bash
-git clone https://github.com/atanucsejgec/Student_Grade_Tracker.git
-cd StudentGradeTracker
-```
+The recorder captures raw WHEEL_DELTA values (120 per mouse wheel notch). If replay scrolls too much or too little:
+- **Physical mouse scroll** → should work 1:1
+- **Touchpad** → use Ctrl+Up/Down shortcuts instead
 
-**2. Open in Android Studio**
+</details>
 
-```
-File → Open → Select the cloned StudentGradeTracker folder
-```
+<details>
+<summary><b>🔊 Sound not working</b></summary>
 
-**3. Sync Gradle**
+- Ensure `"sound_enabled": true` in `config.json`
+- First run generates WAV files via PowerShell — requires Windows SAPI
+- Check `sounds_cache/` directory for generated files
+- If generation fails, sounds are silently skipped
 
-```bash
-./gradlew build
-```
+</details>
 
-**4. Run the App**
+<details>
+<summary><b>🔴 Recording captures no actions</b></summary>
 
-```bash
-# Via terminal
-./gradlew installDebug
+- Ensure you wait for the countdown to finish
+- Verify the "Recording started" message appears in terminal
+- Some antivirus software blocks keyboard/mouse hooks — add an exception
 
-# Or press Shift + F10 in Android Studio
-```
+</details>
 
-> 💡 No API keys or external configurations needed — just clone and run!
+<details>
+<summary><b>⌨️ Keys like Ctrl+A not replaying correctly</b></summary>
 
----
+The recorder captures modifier keys as separate key_down/key_up events. The player replays them in sequence using `pyautogui.keyDown()` / `pyautogui.keyUp()`. If a combination isn't working:
+- Record more slowly — ensure the modifier is held before pressing the letter
+- Check that the target application is focused during replay
 
-## 🧪 Running Tests
-
-```bash
-# ✅ Run all Unit Tests
-./gradlew test
-
-# ✅ Run Instrumented UI Tests (requires connected device or emulator)
-./gradlew connectedAndroidTest
-
-# ✅ Run with verbose output for debugging
-./gradlew test --info
-```
-
-| Test Type | Command | Source Location |
-|---|---|---|
-| Unit Tests | `./gradlew test` | `src/test/java/` |
-| Instrumented Tests | `./gradlew connectedAndroidTest` | `src/androidTest/java/` |
+</details>
 
 ---
 
-## 📦 Project Structure
+## 🔬 Dependencies Deep Dive
 
-```
-📦 com.apk.studentgradetracker
-│
-├── 📂 ui/
-│   └── 📂 theme/
-│       ├── 🎨 Color.kt           # Light & Dark color palettes (Material 3)
-│       ├── 🔤 Typography.kt      # Font styles and text hierarchy
-│       └── 🖌️ Theme.kt           # App theme + dynamic color (Android 12+)
-│
-├── 📄 MainActivity.kt            # 🏠 App entry point + all app logic
-│                                 #    ├── Subject — enum class with emoji
-│                                 #    ├── Student — data class with computed props
-│                                 #    ├── GradeTrackerScreen() — main composable
-│                                 #    ├── mutableStateListOf — reactive student list
-│                                 #    ├── LaunchedEffect — sample data population
-│                                 #    ├── filter, sortedByDescending, map, groupBy
-│                                 #    ├── maxByOrNull — top student finder
-│                                 #    ├── toDoubleOrNull() — safe input parsing
-│                                 #    ├── LazyColumn + FilterChip + Switch
-│                                 #    └── Color-coded pass/fail display
-│
-├── 📄 ExampleUnitTest.kt         # 🧪 Local unit test verifications
-└── 📄 ExampleInstrumentedTest.kt # 🤖 Instrumented UI tests
-```
+<table>
+  <tr>
+    <td><b>pyautogui</b></td>
+    <td><b>Role:</b> Replay engine — sends mouse/keyboard input to the OS<br/><b>Why:</b> Cross-platform API for simulating user input; handles coordinate translation, click types, and key names<br/><b>Limitation:</b> <code>scroll()</code> function normalizes deltas (lossy) — bypassed with Win32 <code>mouse_event()</code> for precision</td>
+  </tr>
+  <tr>
+    <td><b>pynput</b></td>
+    <td><b>Role:</b> Recording engine — captures real-time mouse/keyboard input<br/><b>Why:</b> Provides low-level OS hooks (<code>WH_MOUSE_LL</code>, <code>WH_KEYBOARD_LL</code>) that capture input globally, regardless of focused application<br/><b>Limitation:</b> Cannot capture Windows precision touchpad two-finger scroll</td>
+  </tr>
+  <tr>
+    <td><b>opencv-python</b></td>
+    <td><b>Role:</b> Template matching for UI element detection<br/><b>Why:</b> <code>matchTemplate()</code> is fast, accurate, and doesn't require training data — just a screenshot of the target element<br/><b>Note:</b> Used by <code>image_matcher.py</code> — not required for basic record/replay</td>
+  </tr>
+  <tr>
+    <td><b>numpy</b></td>
+    <td><b>Role:</b> Array operations for OpenCV image processing<br/><b>Why:</b> Required dependency of opencv-python; used for screenshot → array conversion</td>
+  </tr>
+</table>
 
 ---
 
 ## 🗺️ Roadmap
 
-```mermaid
-graph LR
-    subgraph DONE["✅ Completed"]
-        A[Jetpack Compose UI]
-        B[Enum class — Subject]
-        C[Data class — Student]
-        D[Computed Properties]
-        E[mutableStateListOf]
-        F[filter + sortedBy + groupBy]
-        G[Safe Input Parsing]
-        H[Color-Coded Pass/Fail]
-        I[Subject Averages]
-        J[LaunchedEffect Sample Data]
-    end
-
-    subgraph WIP["🔄 In Progress"]
-        K[Accessibility Improvements]
-        L[UI Test Coverage]
-    end
-
-    subgraph PLAN["📋 Planned"]
-        M[Edit & Delete Student Entry]
-        N[Persistent Storage - Room DB]
-        O[Export Grades as CSV]
-        P[Grade Distribution Chart]
-        Q[Search by Student Name]
-        R[Play Store Release]
-    end
-
-    DONE --> WIP --> PLAN
-```
-
 | Status | Feature |
 |---|---|
-| ✅ Done | Jetpack Compose declarative UI |
-| ✅ Done | Enum class for Subject with emoji |
-| ✅ Done | Data class for Student with computed properties |
-| ✅ Done | Reactive list with `mutableStateListOf` |
-| ✅ Done | `filter`, `sortedByDescending`, `map`, `groupBy`, `maxByOrNull` |
-| ✅ Done | Safe grade input parsing with `toDoubleOrNull()` |
-| ✅ Done | Color-coded pass (🟢) / fail (🔴) display |
-| ✅ Done | Per-subject average grade breakdown |
-| ✅ Done | Pre-populated sample data via `LaunchedEffect` |
-| 🔄 In Progress | Enhanced accessibility — TalkBack support |
-| 🔄 In Progress | Complete UI test coverage |
-| 📋 Planned | Edit and delete existing student entries |
-| 📋 Planned | Persistent local storage with Room Database |
-| 📋 Planned | Export grade report as CSV file |
-| 📋 Planned | Grade distribution bar/pie chart |
-| 💡 Idea | Search/filter by student name |
-| 💡 Idea | Google Play Store release |
+| ✅ Done | Mouse & keyboard recording with precise timing |
+| ✅ Done | Exact-timing replay with speed multiplier |
+| ✅ Done | Loop automation with configurable count & delay |
+| ✅ Done | Shuffle replay with ±5% timing jitter |
+| ✅ Done | Emergency abort hotkey (F8) |
+| ✅ Done | Text-to-speech audio announcements |
+| ✅ Done | Raw Win32 scroll capture & replay |
+| ✅ Done | VK code keyboard replay via SendInput |
+| ✅ Done | OpenCV template matching |
+| ✅ Done | Screenshot capture to templates/ |
+| ✅ Done | JSON recording format with full metadata |
+| ✅ Done | Interactive settings editor (config.json) |
+| ✅ Done | Touchpad scroll shortcut (Ctrl+Up/Down) |
+| 📋 Planned | GUI front-end (tkinter or PyQt) |
+| 📋 Planned | Cross-platform support (macOS / Linux) |
+| 📋 Planned | Recording editor — trim, reorder, merge |
+| 📋 Planned | Conditional replay (image match → trigger action) |
+| 💡 Idea | Cloud recording sync |
+| 💡 Idea | Script export (generate Python scripts from recordings) |
+| 💡 Idea | Browser extension integration |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are **always welcome**! 🚀
+Contributions are welcome! 🚀
 
 ```mermaid
 gitGraph
@@ -769,110 +723,58 @@ gitGraph
    branch feature/NewFeature
    checkout feature/NewFeature
    commit id: "Add feature"
-   commit id: "Write tests"
+   commit id: "Test & polish"
    checkout main
-   merge feature/NewFeature id: "Merge PR ✅"
-   commit id: "Release 🚀"
+   merge feature/NewFeature id: "Merge PR"
+   commit id: "Release"
 ```
 
-**Steps to Contribute:**
-
 1. **Fork** the project
-
 2. **Create** your feature branch
    ```bash
-   git checkout -b feature/AmazingFeature
+   git checkout -b feature/NewFeature
    ```
-
-3. **Commit** your changes using Conventional Commits
+3. **Commit** your changes
    ```bash
-   git commit -m "feat: add grade export feature"
+   git commit -m 'feat: Add some NewFeature'
    ```
-
-4. **Push** to your branch
+4. **Push** to the branch
    ```bash
-   git push origin feature/AmazingFeature
+   git push origin feature/NewFeature
    ```
-
 5. **Open** a Pull Request 🎉
-
-### 📋 Commit Convention
-
-| Prefix | Purpose | Example |
-|---|---|---|
-| `feat:` | New feature | `feat: add grade export to CSV` |
-| `fix:` | Bug fix | `fix: incorrect average on empty list` |
-| `refactor:` | Code refactor | `refactor: extract student card composable` |
-| `test:` | Add/update tests | `test: add unit test for letterGrade` |
-| `docs:` | Documentation update | `docs: update README key concepts` |
-| `chore:` | Config or build changes | `chore: update gradle version` |
-| `style:` | UI or styling tweaks | `style: update card padding` |
 
 ### 📋 Contribution Guidelines
 
-- Follow **Kotlin coding conventions** throughout
-- Write **unit tests** for any new logic added
-- Keep Composables **small, focused and reusable**
-- Follow **Material 3** guidelines for any UI changes
-- Update **README** for any structural or feature changes
-- Use **conventional commits** for all commit messages
-
----
-
-## 👥 Contributors
-
-<div align="center">
-
-[![Contributors](https://contrib.rocks/image?repo=atanucsejgec/Student_Grade_Tracker)](https://github.com/atanucsejgec/Student_Grade_Tracker/graphs/contributors)
-
-*Made with [contrib.rocks](https://contrib.rocks)*
-
-</div>
+- Keep it **dependency-minimal** — avoid unnecessary packages
+- Maintain the **existing code style** (Python 3.10+, type hints welcome)
+- Test on **Windows 10 and Windows 11** at minimum
+- Use **conventional commits** (`feat:`, `fix:`, `docs:`, `refactor:`)
+- Update **documentation** for any new features or configuration changes
+- Ensure **hotkey abort** still works after your changes
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full details.
+This project is provided **as-is** for personal and educational use.
 
 ```
-MIT License
+Copyright (c) 2025
 
-Copyright (c) 2024 Atanu Biswas
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+Permission is hereby granted for personal and educational use only.
+Redistribution for commercial purposes requires explicit permission
+from the project owner.
 ```
-
----
-
-## 📬 Contact
-
-<div align="center">
-
-**Atanu Biswas**
-
-[![GitHub](https://img.shields.io/badge/GitHub-atanucsejgec-181717?style=for-the-badge&logo=github)](https://github.com/atanucsejgec)
-[![Project](https://img.shields.io/badge/Project-StudentGradeTracker-79C6FF?style=for-the-badge&logo=android)](https://github.com/atanucsejgec/Student_Grade_Tracker)
-
-📌 **Project Link:** [https://github.com/atanucsejgec/Student_Grade_Tracker](https://github.com/atanucsejgec/Student_Grade_Tracker)
-
-</div>
 
 ---
 
 <div align="center">
 
-### ⭐ If Student Grade Tracker helped you learn or saved you time, drop a Star — it really means a lot! ⭐
+### ⭐ If AutoPilot saves you time, please consider giving it a star! ⭐
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,18&height=120&section=footer"/>
+[![GitHub stars](https://img.shields.io/github/stars/atanucsejgec/Automation_Bot?style=social)](https://github.com/atanucsejgec/Automation_Bot/stargazers)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 </div>
-
